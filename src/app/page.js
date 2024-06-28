@@ -6,6 +6,7 @@ import { Button } from 'react-bootstrap';
 export default function Home() {
     return (
         <>
+        {/*
             <header className="bg-success py-3">
                 <div className="container">
                     <nav className="navbar navbar-expand-lg navbar-dark">
@@ -37,13 +38,38 @@ export default function Home() {
                     </nav>
                 </div>
             </header>
-
+            */}
             <body>
                 <div className="container">
                     <div className="text-center"> {/* Corrigido: className para text-center */}
                         <img src="./imagens/baner.svg" width="300px" className="me-12" alt="Banner" /> {/* Corrigido: atributo className */}
                     </div>
                 </div>
+           
+            
+            <div className="container text-center" >
+                <h3>Historia</h3>
+                
+
+                
+                <h3>Cerimonia</h3>
+            
+                <h3>Festa</h3>
+                
+
+                
+                <h3>Lista presente</h3>
+
+            
+
+                </div>
+
+      
+
+                
+              
+
+
             </body>
         </>
     );
