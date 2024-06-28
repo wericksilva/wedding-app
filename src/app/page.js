@@ -48,12 +48,14 @@ export default function Home() {
            
             
             <div className="container text-center" >
-               
-
             
 
                 <div class="card  mt-2">
-                <h3>Historia</h3>
+                <div className="container">
+                    <div className="text-center"> {/* Corrigido: className para text-center */}
+                        <img src="./imagens/historia.svg" width="400px" height="205px"  className="me-12" alt="Banner" /> {/* Corrigido: atributo className */}
+                    </div>
+                </div>
   <div class="card-body">
     This is some text within a card body.
   </div>
@@ -62,7 +64,11 @@ export default function Home() {
 
 
 <div class="card mt-4">
-                <h3>Cerimonia</h3>
+<div className="container">
+                    <div className="text-center"> {/* Corrigido: className para text-center */}
+                        <img src="./imagens/cerimonia.svg" width="400px" height="205px"  className="me-12" alt="Banner" /> {/* Corrigido: atributo className */}
+                    </div>
+                </div>
   <div class="card-body">
     This is some text within a card body.
   </div>
@@ -71,7 +77,11 @@ export default function Home() {
 
 
 <div class="card  mt-4">
-                <h3>Festa</h3>
+<div className="container">
+                    <div className="text-center"> {/* Corrigido: className para text-center */}
+                        <img src="./imagens/recepcao.svg" width="400px" height="205px"  className="me-12" alt="Banner" /> {/* Corrigido: atributo className */}
+                    </div>
+                </div>
   <div class="card-body">
     This is some text within a card body.
   </div>
@@ -79,7 +89,11 @@ export default function Home() {
 </div>
 
 <div class="card  mt-4">
-                <h3>Lista presente</h3>
+<div className="container">
+                    <div className="text-center"> {/* Corrigido: className para text-center */}
+                        <img src="./imagens/presentes.svg" width="400px" height="205px"  className="me-12" alt="Banner" /> {/* Corrigido: atributo className */}
+                    </div>
+                </div>
   <div class="card-body">
     This is some text within a card body.
   </div>
