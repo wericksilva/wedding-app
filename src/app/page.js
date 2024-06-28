@@ -1,6 +1,8 @@
 import Image from "next/image";
 import styles from "./page.module.css";
 
+// or less ideally
+import { Button } from 'react-bootstrap';
 export default function Home() {
     return (
         <>
@@ -39,7 +41,7 @@ export default function Home() {
             <body>
                 <div className="container">
                     <div className="text-center"> {/* Corrigido: className para text-center */}
-                        <img src="../imagens/baner.svg" width="300px" className="me-12" alt="Banner" /> {/* Corrigido: atributo className */}
+                        <img src="./imagens/baner.svg" width="300px" className="me-12" alt="Banner" /> {/* Corrigido: atributo className */}
                     </div>
                 </div>
             </body>
