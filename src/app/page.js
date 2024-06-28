@@ -91,7 +91,7 @@ export default function Home() {
 <div class="card  mt-4">
 <div className="container">
                     <div className="text-center"> {/* Corrigido: className para text-center */}
-                        <img src="./imagens/presentes5.svg" width="370px" height="200px"  className="me-12" alt="Presentes" /> {/* Corrigido: atributo className */}
+                        <img src="./imagens/presente1.svg" width="370px" height="200px"  className="me-12" alt="Presentes" /> {/* Corrigido: atributo className */}
                     </div>
                 </div>
   <div class="card-body">
