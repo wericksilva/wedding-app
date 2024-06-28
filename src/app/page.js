@@ -48,23 +48,49 @@ export default function Home() {
            
             
             <div className="container text-center" >
+               
+
+            
+
+                <div class="card  mt-2">
                 <h3>Historia</h3>
-                
+  <div class="card-body">
+    This is some text within a card body.
+  </div>
+  
+</div>
 
-                
+
+<div class="card mt-4">
                 <h3>Cerimonia</h3>
-            
+  <div class="card-body">
+    This is some text within a card body.
+  </div>
+  
+</div>
+
+
+<div class="card  mt-4">
                 <h3>Festa</h3>
-                
+  <div class="card-body">
+    This is some text within a card body.
+  </div>
+  
+</div>
 
-                
+<div class="card  mt-4">
                 <h3>Lista presente</h3>
+  <div class="card-body">
+    This is some text within a card body.
+  </div>
+  
+</div>
 
-            
 
                 </div>
 
       
+
 
                 
               
