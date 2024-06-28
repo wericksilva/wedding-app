@@ -42,7 +42,7 @@ export default function Home() {
             <body>
                 <div className="container">
                     <div className="text-center"> {/* Corrigido: className para text-center */}
-                        <img src="./imagens/baner.svg" width="300px" className="me-12" alt="Banner" /> {/* Corrigido: atributo className */}
+                        <img src="./imagens/baner.svg" width="352px" className="me-12" alt="Banner" /> {/* Corrigido: atributo className */}
                     </div>
                 </div>
            
@@ -53,7 +53,7 @@ export default function Home() {
                 <div class="card  mt-2">
                 <div className="container">
                     <div className="text-center"> {/* Corrigido: className para text-center */}
-                        <img src="./imagens/historia.svg" width="400px" height="205px"  className="me-12" alt="Historia" /> {/* Corrigido: atributo className */}
+                        <img src="./imagens/historia.svg" width="352px" height="205px"  className="me-12" alt="Historia" /> {/* Corrigido: atributo className */}
                     </div>
                 </div>
   <div class="card-body">
@@ -66,7 +66,7 @@ export default function Home() {
 <div class="card mt-4">
 <div className="container">
                     <div className="text-center"> {/* Corrigido: className para text-center */}
-                        <img src="./imagens/cerimonia.svg" width="400px" height="205px"  className="me-12" alt="Cerimonia" /> {/* Corrigido: atributo className */}
+                        <img src="./imagens/cerimonia.svg" width="352px" height="205px"  className="me-12" alt="Cerimonia" /> {/* Corrigido: atributo className */}
                     </div>
                 </div>
   <div class="card-body">
@@ -79,7 +79,7 @@ export default function Home() {
 <div class="card  mt-4">
 <div className="container">
                     <div className="text-center"> {/* Corrigido: className para text-center */}
-                        <img src="./imagens/recepcao.svg" width="400px" height="205px"  className="me-12" alt="Recepcao" /> {/* Corrigido: atributo className */}
+                        <img src="./imagens/recepcao.svg" width="352px" height="205px"  className="me-12" alt="Recepcao" /> {/* Corrigido: atributo className */}
                     </div>
                 </div>
   <div class="card-body">
@@ -91,7 +91,7 @@ export default function Home() {
 <div class="card  mt-4">
 <div className="container">
                     <div className="text-center"> {/* Corrigido: className para text-center */}
-                        <img src="./imagens/presentes2.svg" width="400px" height="205px"  className="me-12" alt="Presentes" /> {/* Corrigido: atributo className */}
+                        <img src="./imagens/presentes2.svg" width="352px" height="205px"  className="me-12" alt="Presentes" /> {/* Corrigido: atributo className */}
                     </div>
                 </div>
   <div class="card-body">
