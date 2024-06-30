@@ -118,7 +118,7 @@ export default function Home() {
                         <div className="container">
                         <a className="nav-link" target="_blank" href="https://www.listapresenca.com.br/?d=NzMwOF84NjA3">
                             <div className="text-center"> {/* Corrigido: className para text-center */}
-                                <img src="./imagens/presenca.svg" width="370px" height="200px" className="me-12" alt="Presenca" /> {/* Corrigido: atributo className */}
+                                <img src="./imagens/presenca.svg" width="352px" height="205px" className="me-12" alt="Presenca" /> {/* Corrigido: atributo className */}
                             </div>
                             </a>
                         </div>
@@ -138,7 +138,7 @@ export default function Home() {
                     <div class="card  mt-4">
                         <div className="container">
                             <div className="text-center"> {/* Corrigido: className para text-center */}
-                                <img src="./imagens/presentes.svg" width="370px" height="200px" className="me-12" alt="Presentes" /> {/* Corrigido: atributo className */}
+                                <img src="./imagens/presentes.svg" width="352px" height="205px" className="me-12" alt="Presentes" /> {/* Corrigido: atributo className */}
                             </div>
                         </div>
                         <div class="card-body">
