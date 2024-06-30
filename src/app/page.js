@@ -1,9 +1,6 @@
 "use client"
 
 import { useState, useEffect } from "react";
-import Image from 'next/image';
-import styles from './page.module.css';
-import { Button } from 'react-bootstrap';
 
 export default function Home() {
     const [timeLeft, setTimeLeft] = useState('');
@@ -95,7 +92,7 @@ export default function Home() {
                     <div className="container">
                         <a className="nav-link" target="_blank" href="https://www.listapresenca.com.br/?d=NzMwOF84NjA3">
                             <div className="text-center">
-                                <img src="./imagens/presenca.svg" width="352px" height="205px" className="me-12" alt="Presenca" />
+                                <img src="./imagens/presenca.svg" width="355px" height="190px" className="me-12" alt="Presenca" />
                             </div>
                         </a>
                     </div>
@@ -107,7 +104,7 @@ export default function Home() {
                 <div className="card mt-4">
                     <div className="container">
                         <div className="text-center">
-                            <img src="./imagens/presentes.svg" width="352px" height="205px" className="me-12" alt="Presentes" />
+                            <img src="./imagens/presentes.svg" width="355px" height="190px" className="me-12" alt="Presentes" />
                         </div>
                     </div>
                     <div className="card-body">
