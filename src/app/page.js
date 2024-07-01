@@ -73,7 +73,7 @@ export default function Home() {
 
                 <div className="card mt-4">
                     <div className="container">
-                    <a href="/presentes">
+                    <a href="/wedding-app/presentes">
                                     
                         <div className="text-center">
                             <img src="./imagens/presentes.svg" width="355px" height="190px" className="me-12" alt="Presentes" />
