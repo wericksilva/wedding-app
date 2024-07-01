@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import CountDown from "./components/countdown";
+import { Router } from "next/router";
 
 
 export default function Home() {
@@ -19,13 +20,14 @@ export default function Home() {
             <div className="container text-center">
                 <div className="card mt-2">
                     <div className="container">
-                        <a href="/historia">
+                        <a href="/wedding-app/historia">
                         <div className="text-center">
                             <img src="./imagens/historia.svg" width="352px" height="205px" className="me-12" alt="Historia" />
                         </div>
                         </a>
                     </div>
                     <div className="card-body">
+                    
                         <p>Nos conhecemos em uma tarde ensolarada e, desde então, nossas vidas se entrelaçaram em uma linda história de amor. Venha descobrir cada capítulo dessa jornada incrível que nos trouxe até aqui.</p>
                     </div>
                 </div>
