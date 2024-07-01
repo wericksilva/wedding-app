@@ -19,7 +19,7 @@ export default function Home() {
             <div className="container text-center">
                 <div className="card mt-2">
                     <div className="container">
-                        <a href="/historia">
+                        <a href="/wedding-app/historia">
                         <div className="text-center">
                             <img src="./imagens/historia.svg" width="352px" height="205px" className="me-12" alt="Historia" />
                         </div>
