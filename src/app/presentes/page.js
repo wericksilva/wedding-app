@@ -44,7 +44,7 @@ export default function Home() {
                             <img src="./imagens/polonorte.svg" width="175px" height="110px" className="me-12" alt="Historia" />
                         </div>
         <div class="card-body">
-          <p class="card-text">Expedição ao Polo Norte ou Antártida.</p>
+          <p class="card-text">Expedição Polo Norte ou Antártida.</p>
           <p class="card-text">5.000,00 R$</p>
         </div>
       </div>
@@ -55,7 +55,7 @@ export default function Home() {
                             <img src="./imagens/streaming.svg" width="175px" height="110px" className="me-12" alt="Historia" />
                         </div>
         <div class="card-body">
-          <p class="card-text">Um mês de assinatura de um streaming</p>
+          <p class="card-text">Um mês de tv/streaming</p>
          
           <p class="card-text">50 R$</p>
         </div>
