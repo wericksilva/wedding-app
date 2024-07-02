@@ -90,9 +90,9 @@ export default function Home() {
                 <img src="./imagens/luademel.svg" width="175px" height="110px" className="me-12" alt="Historia" />
               </div>
               <div class="card-body" >
-                <p class="card-text"> Contribuição viagem de lua de mel.</p>
+                <p class="card-text"> Contribuição com a lua de mel.</p>
                 <p class="card-text"></p>
-                <p class="card-text">1,00 R$ até 50.000 R$</p>
+                <p class="card-text">Qualquer valor</p>
               </div>
             </div>
           </div>
@@ -103,7 +103,7 @@ export default function Home() {
                 <img src="./imagens/balao.svg" width="175px" height="110px" className="me-12" alt="Historia" />
               </div>
               <div class="card-body" >
-                <p class="card-text">Dois Passeio de balão ou trilha guiada.</p>
+                <p class="card-text">Passeio de balão ou trilha guiada.</p>
                 <p class="card-text"></p>
                 <p class="card-text">200 R$</p>
               </div>
@@ -140,7 +140,7 @@ export default function Home() {
                 <img src="./imagens/show.svg" width="175px" height="110px" className="me-12" alt="Historia" />
               </div>
               <div class="card-body" >
-                <p class="card-text">Ingressos para um show/evento cultural.</p>
+                <p class="card-text">Ingressos show/evento.</p>
                 <p class="card-text"></p>
                 <p class="card-text">100 R$</p>
               </div>
