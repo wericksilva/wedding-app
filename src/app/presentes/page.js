@@ -115,7 +115,7 @@ export default function Home() {
                 <img src="./imagens/massagem.svg" width="175px" height="110px" className="me-12" alt="Historia" />
               </div>
               <div class="card-body" >
-                <p class="card-text">Dia de relaxamento e massagens.</p>
+                <p class="card-text">Massagens e relaxamento.</p>
                 <p class="card-text"></p>
                 <p class="card-text">200 R$</p>
               </div>
