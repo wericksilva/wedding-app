@@ -6,7 +6,16 @@ import CountDown from "../components/countdown";
 
 export default function Home() {
 
-   
+  const handleSvgClick = async () => {
+    try {
+      const textToCopy = document.getElementById('pix-key').innerText;
+      await navigator.clipboard.writeText(textToCopy);
+      alert('Chave Pix copiada para a área de transferência!');
+    } catch (error) {
+      console.error('Falha ao copiar a Chave Pix:', error);
+      alert('Erro ao copiar a Chave Pix.');
+    }
+  };
 
 
     return (
@@ -68,7 +77,7 @@ export default function Home() {
                             <img src="./imagens/internet.svg" width="175px" height="110px" className="me-12" alt="Historia" />
                         </div>
         <div class="card-body" >
-          <p class="card-text">Um mês de internet celular ou Wi-Fi</p>
+          <p class="card-text">Um mês de internet celular </p>
           <p class="card-text"></p>
           <p class="card-text">100 R$</p>
         </div>
@@ -82,7 +91,23 @@ export default function Home() {
                     <div className="card-body">
 
                     <p class="card-text">Para nos presentear de forma simples e rápida, utilize nossa chave PIX dedicada:</p>
-                    <p class="card-text">(61) 98235-3621</p>
+                    <p class="card-text">Chave Pix: f1d8428e-3d73-4bc2-b8b3-4359a84d5d08 
+
+
+
+                    </p>
+                    
+                    <a className="nav-link" target="_blank" href="https://picpay.me/werick.silva9">
+                    <p class="card-text">link PicPay: https://picpay.me/werick.silva9
+                            
+                    </p>
+                  
+                        </a>
+
+          
+
+        
+
                        </div>
                 </div>
     
