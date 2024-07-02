@@ -51,7 +51,7 @@ export default function Home() {
           <div class="col-6 mb-2">
             <div class="card">
               <div className="text-center">
-                <img src="./imagens/polonorte.svg" width="175px" height="110px" className="me-12" alt="Historia" />
+                <img src="./imagens/polonorte.svg" width="170px" height="110px" className="me-12" alt="Historia" />
               </div>
               <div class="card-body">
                 <p class="card-text">Expedição Polo Norte ou Antártida</p>
@@ -87,7 +87,7 @@ export default function Home() {
           <div class="col-6 mb-2">
             <div class="card">
               <div className="text-center">
-                <img src="./imagens/luademel.svg" width="175px" height="110px" className="me-12" alt="Historia" />
+                <img src="./imagens/luademel.svg" width="170px" height="110px" className="me-12" alt="Historia" />
               </div>
               <div class="card-body" >
                 <p class="card-text"> Contribuição com a lua de mel.</p>
@@ -169,19 +169,19 @@ export default function Home() {
                 <div class="row">
 
                   <div class="row">
-                  <span id="pix-ke-chavey" style={{ marginRight: "10px" }} >Chave PIX:
+                  <span id="pix-ke-chavey" style={{ marginRight: "10px" }} >Chave PIX:</span>
                     <span id="pix-key" style={{ marginRight: "10px" }} >f1d8428e-3d73-4bc2-b8b3-4359a84d5d08
 
 
-                    <svg xmlns="http://www.w3.org/2000/svg" class="link-primary" onClick={handleSvgClick} style={{ marginLeft: "15px" }} width="16" height="16" fill="currentColor" class="bi bi-copy" viewBox="0 0 16 16">
+                    <svg xmlns="http://www.w3.org/2000/svg" color="blue" class="link-primary" onClick={handleSvgClick} style={{ marginLeft: "15px" }} width="16" height="16" fill="currentColor" class="bi bi-copy" viewBox="0 0 16 16">
                       <path fill-rule="evenodd" d="M4 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 5a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1v-1h1v1a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h1v1z" />
                     </svg>
                     </span>
-                    </span>
+                    
                   </div>
 
                 </div>
-
+                <span id="pix-ke-chavey" style={{ marginRight: "30px" }} >Cartão de Credito:</span>
                 <a className="nav-link link-primary" target="_blank" href="https://picpay.me/werick.silva9">
                   <p class="card-text">link PicPay: https://picpay.me/werick.silva9
 
