@@ -60,7 +60,7 @@ export default function Home() {
 
                 <div className="card mt-4">
                     <div className="container">
-                        <a className="nav-link" target="_blank" href="https://www.listapresenca.com.br/?d=NzMwOF84NjA3">
+                        <a className="nav-link" target="_blank" href="https://forms.gle/zh1TAMvs3cb3BfXo8">
                             <div className="text-center">
                                 <img src="./imagens/presenca.svg" width="355px" height="190px" className="me-12" alt="Presenca" />
                             </div>
