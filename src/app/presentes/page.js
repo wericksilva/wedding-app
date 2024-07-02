@@ -33,7 +33,7 @@ export default function Home() {
                         </div>
         <div class="card-body">
           <p class="card-text">Jantar em um restaurante</p>
-          <p class="card-text">250 R$</p>
+          <p class="card-text" color="blue">250 R$</p>
         </div>
       </div>
     </div>
@@ -44,7 +44,7 @@ export default function Home() {
                             <img src="./imagens/polonorte.svg" width="175px" height="110px" className="me-12" alt="Historia" />
                         </div>
         <div class="card-body">
-          <p class="card-text">Expedição Polo Norte ou Antártida.</p>
+          <p class="card-text">Expedição Polo Norte ou Antártida</p>
           <p class="card-text">5.000,00 R$</p>
         </div>
       </div>
@@ -67,8 +67,9 @@ export default function Home() {
       <div className="text-center">
                             <img src="./imagens/internet.svg" width="175px" height="110px" className="me-12" alt="Historia" />
                         </div>
-        <div class="card-body">
-          <p class="card-text">Um mês de assinatura de internet</p>
+        <div class="card-body" >
+          <p class="card-text">Um mês de internet celular ou Wi-Fi</p>
+          <p class="card-text"></p>
           <p class="card-text">100 R$</p>
         </div>
       </div>
