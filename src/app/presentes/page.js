@@ -164,7 +164,7 @@ export default function Home() {
           <div className="container text-center">
             <div className="card mt-2">
               <div className="card-body">
-                <p class="card-text">Para nos presentear de forma simples e rápida, utilize nossa chave PIX ou Cartão de Credito</p>
+                <p class="card-text">Para nos presentear de forma simples e rápida, utilize chave PIX ou Cartão de Credito</p>
 
                 <div class="row">
 
