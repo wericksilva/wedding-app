@@ -34,15 +34,13 @@ export default function Home() {
 
       <div className="container text-center">
         <div className="card mt-2">
-          {/**
           <div className="container">
-            <a href="/wedding-app/presentes">
+            
               <div className="text-center">
                 <img src="./imagens/presentes.svg" width="355px" height="190px" className="me-12" alt="Presentes" />
               </div>
-            </a>
+            
           </div>
-          */}
           <div className="card-body">
 
             <p>Nesta lista de presentes, escolhemos experiências que vão enriquecer nossa vida juntos, criando memórias inesquecíveis. Sua contribuição nos ajudará a viver momentos únicos e especiais. Obrigado por fazer parte dessa nossa nova jornada!
