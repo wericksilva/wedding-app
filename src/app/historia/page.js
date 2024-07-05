@@ -19,13 +19,28 @@ export default function Home() {
       <div className="container">
         <a className="nav-link" href="/wedding-app">
           <div className="text-center">
-            <img src="./imagens/baner.svg" width="390px" className="me-12" alt="Banner" />
+            <img src="./imagens/baner.svg" width="380px" className="me-12" alt="Banner" />
           </div>
         </a>
       </div>
 
       <CountDown></CountDown>
 
+      <div className="container text-center">
+                <div className="card mt-2">
+                    <div className="container">
+                        <a href="/wedding-app/historia">
+                        <div className="text-center">
+                            <img src="./imagens/historia.svg" width="352px" height="205px" className="me-12" alt="Historia" />
+                        </div>
+                        </a>
+                    </div>
+                    <div className="card-body">
+                    
+                        <p>Era uma vez dois corações destinados a se encontrar. Em uma tarde ensolarada, nossos olhares se cruzaram e, desde então, nossas vidas se entrelaçaram de forma mágica. Cada riso, cada abraço, fortaleceu nosso amor e cumplicidade. Hoje, celebramos essa jornada incrível, prontos para escrever novos capítulos juntos. Que nosso futuro seja sempre iluminado por esse amor tão especial.</p>
+                    </div>
+                </div>
+                </div>
 
       <div class="container" style={{ marginTop: "10px" }} >
         <div class="row">
