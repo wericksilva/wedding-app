@@ -9,7 +9,7 @@ export default function Home() {
   const handleSvgClick = async () => {
     try {
       const textToCopy = document.getElementById('pix-key').innerText;
-      
+
       await navigator.clipboard.writeText(textToCopy);
       alert('Chave Pix copiada para a área de transferência!');
     } catch (error) {
@@ -31,6 +31,25 @@ export default function Home() {
       </div>
 
       <CountDown></CountDown>
+
+      <div className="container text-center">
+        <div className="card mt-2">
+          {/**
+          <div className="container">
+            <a href="/wedding-app/presentes">
+              <div className="text-center">
+                <img src="./imagens/presentes.svg" width="355px" height="190px" className="me-12" alt="Presentes" />
+              </div>
+            </a>
+          </div>
+          */}
+          <div className="card-body">
+
+            <p>Nesta lista de presentes, escolhemos experiências que vão enriquecer nossa vida juntos, criando memórias inesquecíveis. Sua contribuição nos ajudará a viver momentos únicos e especiais. Obrigado por fazer parte dessa nossa nova jornada!
+            </p>
+          </div>
+        </div>
+      </div>
 
 
       <div class="container" style={{ marginTop: "10px" }} >
@@ -184,7 +203,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-         
+
 
 
 
@@ -196,15 +215,15 @@ export default function Home() {
                 <div class="row">
 
                   <div class="row">
-                  <span id="pix-ke-chavey" style={{ marginRight: "10px" }} >Chave PIX:</span>
+                    <span id="pix-ke-chavey" style={{ marginRight: "10px" }} >Chave PIX:</span>
                     <span id="pix-key" style={{ marginRight: "10px" }} >f1d8428e-3d73-4bc2-b8b3-4359a84d5d08
 
 
-                    <svg xmlns="http://www.w3.org/2000/svg" color="blue" class="link-primary bi bi-copy" onClick={handleSvgClick} style={{ marginLeft: "15px" }} width="16" height="16" fill="currentColor"  viewBox="0 0 16 16">
-                      <path fill-rule="evenodd" d="M4 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 5a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1v-1h1v1a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h1v1z" />
-                    </svg>
+                      <svg xmlns="http://www.w3.org/2000/svg" color="blue" class="link-primary bi bi-copy" onClick={handleSvgClick} style={{ marginLeft: "15px" }} width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M4 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 5a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1v-1h1v1a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h1v1z" />
+                      </svg>
                     </span>
-                    
+
                   </div>
 
                 </div>
