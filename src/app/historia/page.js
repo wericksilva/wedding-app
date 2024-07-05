@@ -19,7 +19,7 @@ export default function Home() {
       <div className="container">
         <a className="nav-link" href="/wedding-app">
           <div className="text-center">
-            <img src="./imagens/baner.svg" width="400px" className="me-12" alt="Banner" />
+            <img src="./imagens/baner.svg" width="390px" className="me-12" alt="Banner" />
           </div>
         </a>
       </div>
