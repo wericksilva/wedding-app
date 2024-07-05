@@ -11,7 +11,7 @@ export default function Home() {
             <div className="container">
                 <div className="text-center">
                     
-                    <img src="./imagens/baner.svg" width="375px" className="me-12" alt="Banner" />
+                    <img src="./imagens/baner.svg" width="370px" className="me-12" alt="Banner" />
                 </div>
             </div>
 
