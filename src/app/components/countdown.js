@@ -13,7 +13,7 @@ export default function CountDown() {
             const distance = countDownDate - now;
 
             if (distance < 0) {
-                setTimeLeft("EXPIRED");
+                setTimeLeft("CHEGOU A HORA!");
                 return;
             }
 
