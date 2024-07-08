@@ -145,7 +145,7 @@ export default function Home() {
                 <img src="./imagens/cinema.svg" width="175px" height="110px" className="me-12" alt="Historia" />
               </div>
               <div class="card-body" >
-                <p class="card-text">Dois ingresso de cinema.</p>
+                <p class="card-text">Dois ingressos de cinema.</p>
                 <p class="card-text"></p>
                 <p class="card-text">70 R$</p>
               </div>
