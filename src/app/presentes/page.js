@@ -381,7 +381,7 @@ export default function Home() {
                 <img src="./imagens/aponsentadoria.svg" width="175px" height="110px" className="me-12" alt="Historia" />
               </div>
               <div class="card-body" >
-                <p class="card-text">Ajuda para a aposentadoria dos noivoss.</p>
+                <p class="card-text">Ajuda para a aposentadoria dos noivos.</p>
                 <p class="card-text"></p>
                 <p class="card-text">R$ 250,00</p>
               </div>
