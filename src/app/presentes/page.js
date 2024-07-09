@@ -339,18 +339,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div class="col-6 mb-2">
-            <div class="card">
-              <div className="text-center">
-                <img src="./imagens/aponsentadoria.svg" width="175px" height="110px" className="me-12" alt="Historia" />
-              </div>
-              <div class="card-body" >
-                <p class="card-text">Ajuda para a aposentadoria dos noivoss.</p>
-                <p class="card-text"></p>
-                <p class="card-text">R$ 250,00</p>
-              </div>
-            </div>
-          </div>
+          
 
           
 
@@ -380,6 +369,19 @@ export default function Home() {
               </div>
               <div class="card-body" >
                 <p class="card-text">Maracugina para os noivos.</p>
+                <p class="card-text"></p>
+                <p class="card-text">R$ 250,00</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6 mb-2">
+            <div class="card">
+              <div className="text-center">
+                <img src="./imagens/aponsentadoria.svg" width="175px" height="110px" className="me-12" alt="Historia" />
+              </div>
+              <div class="card-body" >
+                <p class="card-text">Ajuda para a aposentadoria dos noivoss.</p>
                 <p class="card-text"></p>
                 <p class="card-text">R$ 250,00</p>
               </div>
