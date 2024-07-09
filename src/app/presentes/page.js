@@ -221,7 +221,7 @@ export default function Home() {
                 <img src="./imagens/parecetaloka.svg" width="175px" height="110px" className="me-12" alt="Historia" />
               </div>
               <div class="card-body" >
-                <p class="card-text">Kit calmante para não se extressar</p>
+                <p class="card-text">Kit calmante para a noiva.</p>
                 <p class="card-text"></p>
                 <p class="card-text">R$ 70,00</p>
               </div>
@@ -248,7 +248,7 @@ export default function Home() {
                 <img src="./imagens/chopp.svg" width="175px" height="110px" className="me-12" alt="Historia" />
               </div>
               <div class="card-body" >
-                <p class="card-text">uma Rodada de chopp.</p>
+                <p class="card-text">Uma rodada de chopp.</p>
                 <p class="card-text"></p>
                 <p class="card-text">R$ 100,00</p>
               </div>
