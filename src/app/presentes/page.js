@@ -309,18 +309,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div class="col-6 mb-2">
-            <div class="card">
-              <div className="text-center">
-                <img src="./imagens/parente.svg" width="175px" height="110px" className="me-12" alt="Historia" />
-              </div>
-              <div class="card-body" >
-                <p class="card-text">Seja nosso parente favorito.</p>
-                <p class="card-text"></p>
-                <p class="card-text">R$ 1.000,00</p>
-              </div>
-            </div>
-          </div>
+          
 
           <div class="col-6 mb-2">
             <div class="card">
@@ -335,18 +324,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div class="col-6 mb-2">
-            <div class="card">
-              <div className="text-center">
-                <img src="./imagens/divina.svg" width="175px" height="110px" className="me-12" alt="Historia" />
-              </div>
-              <div class="card-body" >
-                <p class="card-text">Se por uma intervenção divina você se sentir tocado.</p>
-                <p class="card-text"></p>
-                <p class="card-text">R$ 3.000,00</p>
-              </div>
-            </div>
-          </div>
+          
 
           <div class="col-6 mb-2">
             <div class="card">
@@ -376,31 +354,9 @@ export default function Home() {
 
           
 
-          <div class="col-6 mb-2">
-            <div class="card">
-              <div className="text-center">
-                <img src="./imagens/buqueNoiva.svg" width="175px" height="110px" className="me-12" alt="Historia" />
-              </div>
-              <div class="card-body" >
-                <p class="card-text">Taxa pra noiva não jogar o buquê pra sua namorada.</p>
-                <p class="card-text"></p>
-                <p class="card-text">R$ 100,00</p>
-              </div>
-            </div>
-          </div>
+          
 
-          <div class="col-6 mb-2">
-            <div class="card">
-              <div className="text-center">
-                <img src="./imagens/kitressaca.svg" width="175px" height="110px" className="me-12" alt="Historia" />
-              </div>
-              <div class="card-body" >
-                <p class="card-text">Kit ressaca para os noivos.</p>
-                <p class="card-text"></p>
-                <p class="card-text">R$ 80,00</p>
-              </div>
-            </div>
-          </div>
+          
 
           <div class="col-6 mb-2">
             <div class="card">
