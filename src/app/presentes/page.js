@@ -309,9 +309,140 @@ export default function Home() {
             </div>
           </div>
 
+          <div class="col-6 mb-2">
+            <div class="card">
+              <div className="text-center">
+                <img src="./imagens/parente.svg" width="175px" height="110px" className="me-12" alt="Historia" />
+              </div>
+              <div class="card-body" >
+                <p class="card-text">Seja nosso parente favorito.</p>
+                <p class="card-text"></p>
+                <p class="card-text">R$ 1.000,00</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6 mb-2">
+            <div class="card">
+              <div className="text-center">
+                <img src="./imagens/boleto.svg" width="175px" height="110px" className="me-12" alt="Historia" />
+              </div>
+              <div class="card-body" >
+                <p class="card-text">Adote um boleto atrasado.</p>
+                <p class="card-text"></p>
+                <p class="card-text">R$ 300,00</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6 mb-2">
+            <div class="card">
+              <div className="text-center">
+                <img src="./imagens/divina.svg" width="175px" height="110px" className="me-12" alt="Historia" />
+              </div>
+              <div class="card-body" >
+                <p class="card-text">Se por uma intervenção divina você se sentir tocado.</p>
+                <p class="card-text"></p>
+                <p class="card-text">R$ 3.000,00</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6 mb-2">
+            <div class="card">
+              <div className="text-center">
+                <img src="./imagens/alexa.svg" width="175px" height="110px" className="me-12" alt="Historia" />
+              </div>
+              <div class="card-body" >
+                <p class="card-text">Alexa para a noiva ter mais alguém pra mandar.</p>
+                <p class="card-text"></p>
+                <p class="card-text">R$ 250,00</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6 mb-2">
+            <div class="card">
+              <div className="text-center">
+                <img src="./imagens/aponsentadoria.svg" width="175px" height="110px" className="me-12" alt="Historia" />
+              </div>
+              <div class="card-body" >
+                <p class="card-text">Ajuda para a aposentadoria dos noivoss.</p>
+                <p class="card-text"></p>
+                <p class="card-text">R$ 250,00</p>
+              </div>
+            </div>
+          </div>
+
+          
+
+          <div class="col-6 mb-2">
+            <div class="card">
+              <div className="text-center">
+                <img src="./imagens/buqueNoiva.svg" width="175px" height="110px" className="me-12" alt="Historia" />
+              </div>
+              <div class="card-body" >
+                <p class="card-text">Taxa pra noiva não jogar o buquê pra sua namorada.</p>
+                <p class="card-text"></p>
+                <p class="card-text">R$ 100,00</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6 mb-2">
+            <div class="card">
+              <div className="text-center">
+                <img src="./imagens/kitressaca.svg" width="175px" height="110px" className="me-12" alt="Historia" />
+              </div>
+              <div class="card-body" >
+                <p class="card-text">Kit ressaca para os noivos.</p>
+                <p class="card-text"></p>
+                <p class="card-text">R$ 80,00</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6 mb-2">
+            <div class="card">
+              <div className="text-center">
+                <img src="./imagens/biticoin.svg" width="175px" height="110px" className="me-12" alt="Historia" />
+              </div>
+              <div class="card-body" >
+                <p class="card-text">Ajude nos acumular bitcoin.</p>
+                <p class="card-text"></p>
+                <p class="card-text">R$ 200,00</p>
+              </div>
+            </div>
+          </div>
+
          
-
-
+          
+          <div class="col-6 mb-2">
+            <div class="card">
+              <div className="text-center">
+                <img src="./imagens/maracugina.svg" width="175px" height="110px" className="me-12" alt="Historia" />
+              </div>
+              <div class="card-body" >
+                <p class="card-text">Maracugina para os noivos.</p>
+                <p class="card-text"></p>
+                <p class="card-text">R$ 250,00</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-6 mb-2">
+            <div class="card">
+              <div className="text-center">
+                <img src="./imagens/choro.svg" width="175px" height="110px" className="me-12" alt="Historia" />
+              </div>
+              <div class="card-body" >
+                <p class="card-text">Lenço para não borrar maquiagem da noiva.</p>
+                <p class="card-text"></p>
+                <p class="card-text">R$ 50,00</p>
+              </div>
+            </div>
+          </div>
+          
 
           <div className="container text-center">
             <div className="card mt-2">
