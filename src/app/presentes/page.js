@@ -60,7 +60,7 @@ export default function Home() {
               </div>
               <div class="card-body">
                 <p class="card-text">Jantar em um restaurante</p>
-                <p class="card-text" color="blue">250 R$</p>
+                <p class="card-text" color="blue">R$ 250,00</p>
               </div>
             </div>
           </div>
@@ -72,7 +72,7 @@ export default function Home() {
               </div>
               <div class="card-body">
                 <p class="card-text">Expedição Polo Norte ou Antártida</p>
-                <p class="card-text">5.000,00 R$</p>
+                <p class="card-text">R$ 5.000,00$</p>
               </div>
             </div>
           </div>
@@ -84,7 +84,7 @@ export default function Home() {
               <div class="card-body">
                 <p class="card-text">Um mês de tv/streaming</p>
 
-                <p class="card-text">50 R$</p>
+                <p class="card-text">R$ 50,00</p>
               </div>
             </div>
           </div>
@@ -97,7 +97,7 @@ export default function Home() {
               <div class="card-body" >
                 <p class="card-text">Um mês de internet celular </p>
                 <p class="card-text"></p>
-                <p class="card-text">100 R$</p>
+                <p class="card-text">R$ 100,00</p>
               </div>
             </div>
           </div>
@@ -122,7 +122,7 @@ export default function Home() {
               <div class="card-body" >
                 <p class="card-text">Passeio de balão ou trilha guiada.</p>
                 <p class="card-text"></p>
-                <p class="card-text">200 R$</p>
+                <p class="card-text">R$ 200,00</p>
               </div>
             </div>
           </div>
@@ -134,7 +134,7 @@ export default function Home() {
               <div class="card-body" >
                 <p class="card-text">Massagens e relaxamento.</p>
                 <p class="card-text"></p>
-                <p class="card-text">200 R$</p>
+                <p class="card-text">R$ 200,00</p>
               </div>
             </div>
           </div>
@@ -147,7 +147,7 @@ export default function Home() {
               <div class="card-body" >
                 <p class="card-text">Dois ingressos de cinema.</p>
                 <p class="card-text"></p>
-                <p class="card-text">70 R$</p>
+                <p class="card-text">R$ 70,00</p>
               </div>
             </div>
           </div>
@@ -159,7 +159,7 @@ export default function Home() {
               <div class="card-body" >
                 <p class="card-text">Ingressos show/evento.</p>
                 <p class="card-text"></p>
-                <p class="card-text">100 R$</p>
+                <p class="card-text">R$ 100,00</p>
               </div>
             </div>
           </div>
@@ -171,7 +171,7 @@ export default function Home() {
               <div class="card-body" >
                 <p class="card-text">Piquenique no Parque.</p>
                 <p class="card-text"></p>
-                <p class="card-text">50 R$</p>
+                <p class="card-text">R$ 50,00</p>
               </div>
             </div>
           </div>
@@ -202,6 +202,114 @@ export default function Home() {
             </div>
           </div>
 
+          <div class="col-6 mb-2">
+            <div class="card">
+              <div className="text-center">
+                <img src="./imagens/presentinho.svg" width="175px" height="110px" className="me-12" alt="Historia" />
+              </div>
+              <div class="card-body" >
+                <p class="card-text">Para não dizer que eu não dei nada.</p>
+                <p class="card-text"></p>
+                <p class="card-text">R$ 50,00</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6 mb-2">
+            <div class="card">
+              <div className="text-center">
+                <img src="./imagens/parecetaloka.svg" width="175px" height="110px" className="me-12" alt="Historia" />
+              </div>
+              <div class="card-body" >
+                <p class="card-text">Kit calmante para não se extressar</p>
+                <p class="card-text"></p>
+                <p class="card-text">R$ 70,00</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6 mb-2">
+            <div class="card">
+              <div className="text-center">
+                <img src="./imagens/futebol.svg" width="175px" height="110px" className="me-12" alt="Historia" />
+              </div>
+              <div class="card-body" >
+                <p class="card-text">Liberar o futebol de quarta.</p>
+                <p class="card-text"></p>
+                <p class="card-text">R$ 90,00</p>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-6 mb-2">
+            <div class="card">
+              <div className="text-center">
+                <img src="./imagens/chopp.svg" width="175px" height="110px" className="me-12" alt="Historia" />
+              </div>
+              <div class="card-body" >
+                <p class="card-text">Rodada de chopp.</p>
+                <p class="card-text"></p>
+                <p class="card-text">R$ 100,00</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6 mb-2">
+            <div class="card">
+              <div className="text-center">
+                <img src="./imagens/cartao.svg" width="175px" height="110px" className="me-12" alt="Historia" />
+              </div>
+              <div class="card-body" >
+                <p class="card-text">Ajude a pagar o cartão.</p>
+                <p class="card-text"></p>
+                <p class="card-text">R$ 500,00</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6 mb-2">
+            <div class="card">
+              <div className="text-center">
+                <img src="./imagens/buffet.svg" width="175px" height="110px" className="me-12" alt="Historia" />
+              </div>
+              <div class="card-body" >
+                <p class="card-text">Primeiro lugar na fila do buffet</p>
+                <p class="card-text"></p>
+                <p class="card-text">R$ 120,00</p>
+              </div>
+            </div>
+          </div>
+
+          
+
+          <div class="col-6 mb-2">
+            <div class="card">
+              <div className="text-center">
+                <img src="./imagens/buque.svg" width="175px" height="110px" className="me-12" alt="Historia" />
+              </div>
+              <div class="card-body" >
+                <p class="card-text">Jogar o buquê na sua direção</p>
+                <p class="card-text"></p>
+                <p class="card-text">R$ 100,00</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6 mb-2">
+            <div class="card">
+              <div className="text-center">
+                <img src="./imagens/paodequeijo.svg" width="175px" height="110px" className="me-12" alt="Historia" />
+              </div>
+              <div class="card-body" >
+                <p class="card-text">Pão de queijo no aeroporto</p>
+                <p class="card-text"></p>
+                <p class="card-text">R$ 75,00</p>
+              </div>
+            </div>
+          </div>
+
+         
 
 
 
