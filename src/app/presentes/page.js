@@ -248,7 +248,7 @@ export default function Home() {
                 <img src="./imagens/chopp.svg" width="175px" height="110px" className="me-12" alt="Historia" />
               </div>
               <div class="card-body" >
-                <p class="card-text">Rodada de chopp.</p>
+                <p class="card-text">uma Rodada de chopp.</p>
                 <p class="card-text"></p>
                 <p class="card-text">R$ 100,00</p>
               </div>
@@ -274,7 +274,7 @@ export default function Home() {
                 <img src="./imagens/buffet.svg" width="175px" height="110px" className="me-12" alt="Historia" />
               </div>
               <div class="card-body" >
-                <p class="card-text">Primeiro lugar na fila do buffet</p>
+                <p class="card-text">Primeiro lugar na fila do buffet.</p>
                 <p class="card-text"></p>
                 <p class="card-text">R$ 120,00</p>
               </div>
@@ -289,7 +289,7 @@ export default function Home() {
                 <img src="./imagens/buque.svg" width="175px" height="110px" className="me-12" alt="Historia" />
               </div>
               <div class="card-body" >
-                <p class="card-text">Jogar o buquê na sua direção</p>
+                <p class="card-text">Jogar o buquê na sua direção.</p>
                 <p class="card-text"></p>
                 <p class="card-text">R$ 100,00</p>
               </div>
@@ -302,7 +302,7 @@ export default function Home() {
                 <img src="./imagens/paodequeijo.svg" width="175px" height="110px" className="me-12" alt="Historia" />
               </div>
               <div class="card-body" >
-                <p class="card-text">Pão de queijo no aeroporto</p>
+                <p class="card-text">Pão de queijo no aeroporto.</p>
                 <p class="card-text"></p>
                 <p class="card-text">R$ 75,00</p>
               </div>
