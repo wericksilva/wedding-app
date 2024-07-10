@@ -355,7 +355,7 @@ export default function Home() {
               <div class="card-body" >
                 <p class="card-text">Ajude nos acumular bitcoin.</p>
                 <p class="card-text"></p>
-                <p class="card-text">R$ 200,00</p>
+                <p class="card-text">Qualquer valor</p>
               </div>
             </div>
           </div>
