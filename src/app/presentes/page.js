@@ -317,7 +317,7 @@ export default function Home() {
                 <img src="./imagens/boleto.svg" width="175px" height="110px" className="me-12" alt="Historia" />
               </div>
               <div class="card-body" >
-                <p class="card-text">Adote um boleto atrasado.</p>
+                <p class="card-text">Adote um boleto atrasado para ajudar os noivos.</p>
                 <p class="card-text"></p>
                 <p class="card-text">R$ 300,00</p>
               </div>
