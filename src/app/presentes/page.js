@@ -350,10 +350,10 @@ export default function Home() {
           <div class="col-6 mb-2">
             <div class="card">
               <div className="text-center">
-                <img src="./imagens/biticoin.svg" width="175px" height="110px" className="me-12" alt="Historia" />
+                <img src="./imagens/europa.svg" width="175px" height="110px" className="me-12" alt="Historia" />
               </div>
               <div class="card-body" >
-                <p class="card-text">Ajude nos acumular bitcoin.</p>
+                <p class="card-text">Uma viagem para a europa</p>
                 <p class="card-text"></p>
                 <p class="card-text">Qualquer valor</p>
               </div>
