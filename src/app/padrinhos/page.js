@@ -54,7 +54,7 @@ export default function Home() {
           <div class="col-12 mb-2">
             <div class="card">
               <div className="text-center">
-                <img src="./imagens/manual1.svg" width="400px" height="220px" className="me-12" alt="manual1" />
+                <img src="./imagens/manual1.svg" width="350px" height="220px" className="me-12" alt="manual1" />
               </div>
               
             </div>
@@ -67,7 +67,7 @@ export default function Home() {
           <div class="col-12 mb-2">
             <div class="card">
               <div className="text-center">
-                <img src="./imagens/manual2.svg" width="400px" height="220px" className="me-12" alt="manual2" />
+                <img src="./imagens/manual2.svg" width="350px" height="220px" className="me-12" alt="manual2" />
               </div>
               
             </div>
@@ -80,7 +80,7 @@ export default function Home() {
           <div class="col-12 mb-2">
             <div class="card">
               <div className="text-center">
-                <img src="./imagens/manual3.svg" width="400px" height="220px" className="me-12" alt="manual3" />
+                <img src="./imagens/manual3.svg" width="350px" height="220px" className="me-12" alt="manual3" />
               </div>
               
             </div>
