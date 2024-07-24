@@ -47,11 +47,13 @@ export default function Home() {
 
                 <div className="card mt-4">
                     <div className="container">
+                        {/*  
                         <a className="nav-link" target="_blank" href="https://maps.app.goo.gl/ww61LAaK9ZgrtEeW8">
+                            */}
                             <div className="text-center">
                                 <img src="./imagens/recepcao.svg" width="352px" height="205px" className="me-12" alt="Recepcao" />
                             </div>
-                        </a>
+                          {/*  </a>*/}
                     </div>
                     <div className="card-body">
                         <p>Venha comemorar conosco em nossa recepção! Será uma tarde de alegria, dança e muitas lembranças especiais.</p>
@@ -84,6 +86,22 @@ export default function Home() {
                         <p>Sua presença é o nosso maior presente, mas se desejar nos presentear, veja nossas sugestões com carinho. Agradecemos de coração!</p>
                     </div>
                 </div>
+
+                <div className="card mt-4">
+                    <div className="container">
+                    <a href="/wedding-app/padrinhos">
+                                    
+                        <div className="text-center">
+                            <img src="./imagens/padrinhos.svg" width="355px" height="190px" className="me-12" alt="Presentes" />
+                        </div>
+                                </a>
+                    </div>
+                    <div className="card-body">
+                        <p>Queridos padrinhos e madrinhas, é com imensa alegria que contamos com a presença e o apoio de vocês neste momento tão especial de nossas vidas. Sabemos que o papel de vocês vai muito além de estar ao nosso lado no altar. Vocês são parte essencial desta jornada, amigos queridos que escolhemos para compartilhar e celebrar nosso amor.</p>
+                    </div>
+                </div>
+
+                
             </div>
         </>
     );
