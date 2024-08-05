@@ -47,13 +47,13 @@ export default function Home() {
 
                 <div className="card mt-4">
                     <div className="container">
-                        {/*  
+                          
                         <a className="nav-link" target="_blank" href="https://maps.app.goo.gl/ww61LAaK9ZgrtEeW8">
-                            */}
                             <div className="text-center">
                                 <img src="./imagens/recepcao.svg" width="352px" height="205px" className="me-12" alt="Recepcao" />
                             </div>
-                          {/*  </a>*/}
+                         </a>
+
                     </div>
                     <div className="card-body">
                         <p>Venha comemorar conosco em nossa recepção! Será uma tarde de alegria, dança e muitas lembranças especiais.</p>
