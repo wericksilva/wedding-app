@@ -13,6 +13,14 @@ export default function Home() {
     setCounter(prevCounter => prevCounter + 1);
   };
 
+  const handleOpenPdf = () => {
+    // URL do arquivo PDF que você deseja abrir
+    const pdfUrl = './imagens/manual-padrinhos.pdf';
+
+    // Abrir o PDF em uma nova aba
+    window.open(pdfUrl, '_blank');
+  };
+
   return (
     <>
 
@@ -51,45 +59,17 @@ export default function Home() {
       <div class="container" style={{ marginTop: "10px" }} >
         <div class="row">
 
-          <div class="col-12 mb-2">
-            <div class="card">
-              <div className="text-center">
-                <img src="./imagens/manual1.svg" width="350px" height="220px" className="me-12" alt="manual1" />
-              </div>
-              
-            </div>
-          </div>
+          
 
-          </div>
+          <div class="d-grid gap-2 col-6 mx-auto">
+  <button class="btn btn-primary" onClick={handleOpenPdf} type="button">Abrir Manual</button>
 
-          <div class="row">
+</div>
 
-          <div class="col-12 mb-2">
-            <div class="card">
-              <div className="text-center">
-                <img src="./imagens/manual2.svg" width="350px" height="220px" className="me-12" alt="manual2" />
-              </div>
-              
-            </div>
-          </div>
+        </div>
+      </div>
 
-          </div>
 
-          <div class="row">
-
-          <div class="col-12 mb-2">
-            <div class="card">
-              <div className="text-center">
-                <img src="./imagens/manual3.svg" width="350px" height="220px" className="me-12" alt="manual3" />
-              </div>
-              
-            </div>
-          </div>
-
-          </div>
-          </div>
-
-    
 
     </>
   );
