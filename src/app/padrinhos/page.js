@@ -51,7 +51,7 @@ export default function Home() {
 
           <div className="card-body">
 
-            <p>Nesta página, reunimos todas as informações e orientações necessárias para que possam nos ajudar a tornar este dia inesquecível. Aqui vocês encontrarão um manual detalhado com dicas, sugestões e esclarecimentos sobre suas funções e responsabilidades ao longo do processo.</p>
+            <p>Nesta página, reunimos aqui todas as informações e orientações essenciais para tornar nosso dia inesquecível. Abaixo, você encontrará o link para o manual detalhado.</p>
           </div>
         </div>
       </div>
