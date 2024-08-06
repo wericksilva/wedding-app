@@ -44,13 +44,9 @@ export default function Home() {
 
           </div>
 
-          <div className="card-body">
 
+          <div className="card-body">
             <p>Bem-vindos, Padrinhos e Madrinhas!</p>
-          </div>
-
-          <div className="card-body">
-
             <p>Nesta página, reunimos aqui todas as informações e orientações essenciais para tornar nosso dia inesquecível. Abaixo, você encontrará o link para o manual detalhado.</p>
           </div>
         </div>
