@@ -18,7 +18,7 @@ export default function Home() {
             <CountDown></CountDown>
 
             <div className="container text-center">
-                <div className=" mt-2">
+                <div className="mt-2">
                     <div className="container">
                         <a href="/wedding-app/historia">
                         <div className="text-center">
@@ -32,7 +32,7 @@ export default function Home() {
                     </div>
                 </div>
 
-                <div className="card mt-4">
+                <div className="mt-4">
                     <div className="container">
                         <a className="nav-link" target="_blank" href="https://maps.app.goo.gl/q9tLoYmP62dTkNzM9">
                             <div className="text-center">
