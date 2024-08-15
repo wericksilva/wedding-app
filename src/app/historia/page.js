@@ -27,7 +27,7 @@ export default function Home() {
       <CountDown></CountDown>
 
       <div className="container text-center">
-        <div className="card mt-2">
+        <div className="mt-2">
           <div className="container">
          
               <div className="text-center">
@@ -47,67 +47,67 @@ export default function Home() {
         <div class="row">
 
           <div class="col-6 mb-2">
-            <div class="card">
+            <div >
               <div className="text-center">
                 <img src="./imagens/foto1.svg" width="170px" height="160px" className="me-12" alt="Historia" />
               </div>
 
-              <Curtidas></Curtidas>
+              
             </div>
           </div>
 
           <div class="col-6 mb-2">
-            <div class="card">
+            <div >
               <div className="text-center">
                 <img src="./imagens/foto2.svg" width="170px" height="160px" className="me-12" alt="Historia" />
               </div>
-              <Curtidas></Curtidas>
+              
             </div>
           </div>
           <div class="col-6 mb-2">
 
-            <div class="card">
+            <div >
               <div className="text-center">
                 <img src="./imagens/foto3.svg" width="170px" height="160px" className="me-12" alt="Historia" />
               </div>
 
-              <Curtidas></Curtidas>
+              
 
             </div>
           </div>
 
           <div class="col-6 mb-2">
 
-            <div class="card">
+            <div >
               <div className="text-center">
                 <img src="./imagens/foto4.svg" width="170px" height="160px" className="me-12" alt="Historia" />
               </div>
 
-              <Curtidas></Curtidas>
+            
 
             </div>
           </div>
 
           <div class="col-6 mb-2">
 
-            <div class="card">
+            <div >
               <div className="text-center">
                 <img src="./imagens/foto5.svg" width="170px" height="160px" className="me-12" alt="Historia" />
               </div>
 
-              <Curtidas></Curtidas>
+              
 
             </div>
           </div>
 
           <div class="col-6 mb-2">
 
-            <div class="card">
+            <div >
               <div className="text-center">
                 <img src="./imagens/foto6.svg" width="170px" height="160px" className="me-12" alt="Historia" />
               </div>
 
-              <Curtidas></Curtidas>
+             
 
             </div>
           </div>
