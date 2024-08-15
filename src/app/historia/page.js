@@ -47,7 +47,7 @@ export default function Home() {
         <div class="row">
 
           <div class="col-6 mb-2">
-            <div >
+            <div class="card">
               <div className="text-center">
                 <img src="./imagens/foto1.svg" width="170px" height="160px" className="me-12" alt="Historia" />
               </div>
@@ -57,7 +57,7 @@ export default function Home() {
           </div>
 
           <div class="col-6 mb-2">
-            <div >
+            <div class="card">
               <div className="text-center">
                 <img src="./imagens/foto2.svg" width="170px" height="160px" className="me-12" alt="Historia" />
               </div>
@@ -66,7 +66,7 @@ export default function Home() {
           </div>
           <div class="col-6 mb-2">
 
-            <div >
+            <div class="card">
               <div className="text-center">
                 <img src="./imagens/foto3.svg" width="170px" height="160px" className="me-12" alt="Historia" />
               </div>
@@ -78,7 +78,7 @@ export default function Home() {
 
           <div class="col-6 mb-2">
 
-            <div >
+            <div class="card">
               <div className="text-center">
                 <img src="./imagens/foto4.svg" width="170px" height="160px" className="me-12" alt="Historia" />
               </div>
@@ -90,7 +90,7 @@ export default function Home() {
 
           <div class="col-6 mb-2">
 
-            <div >
+            <div class="card">
               <div className="text-center">
                 <img src="./imagens/foto5.svg" width="170px" height="160px" className="me-12" alt="Historia" />
               </div>
@@ -102,7 +102,7 @@ export default function Home() {
 
           <div class="col-6 mb-2">
 
-            <div >
+            <div class="card">
               <div className="text-center">
                 <img src="./imagens/foto6.svg" width="170px" height="160px" className="me-12" alt="Historia" />
               </div>
