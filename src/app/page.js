@@ -45,7 +45,7 @@ export default function Home() {
                     </div>
                 </div>
 
-                <div className="card mt-4">
+                <div className="mt-4">
                     <div className="container">
                           
                         <a className="nav-link" target="_blank" href="https://maps.app.goo.gl/ww61LAaK9ZgrtEeW8">
@@ -60,7 +60,7 @@ export default function Home() {
                     </div>
                 </div>
 
-                <div className="card mt-4">
+                <div className="mt-4">
                     <div className="container">
                         <a className="nav-link" target="_blank" href="https://forms.gle/zh1TAMvs3cb3BfXo8">
                             <div className="text-center">
@@ -73,7 +73,7 @@ export default function Home() {
                     </div>
                 </div>
 
-                <div className="card mt-4">
+                <div className="mt-4">
                     <div className="container">
                     <a href="/wedding-app/presentes">
                                     
@@ -87,7 +87,7 @@ export default function Home() {
                     </div>
                 </div>
 
-                <div className="card mt-4">
+                <div className="mt-4">
                     <div className="container">
                     <a href="/wedding-app/padrinhos">
                                     

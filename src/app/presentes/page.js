@@ -33,7 +33,7 @@ export default function Home() {
       <CountDown></CountDown>
 
       <div className="container text-center">
-        <div className="card mt-2">
+        <div className="mt-2">
           <div className="container">
             
               <div className="text-center">
