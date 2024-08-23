@@ -9,7 +9,7 @@ export default function Home() {
     return (
         <>
             <div className="container">
-                <div className="text-center">
+                <div className="text-center mt-4">
                     
                     <img src="./imagens/baner.svg" width="370px" className="me-12" alt="Banner" />
                 </div>
