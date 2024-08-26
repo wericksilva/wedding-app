@@ -62,7 +62,7 @@ export default function Home() {
 
                 <div className="mt-4">
                     <div className="container">
-                        <a className="nav-link" target="_blank" href="https://forms.gle/zh1TAMvs3cb3BfXo8">
+                        <a className="nav-link" target="_blank" href="https://forms.gle/52Uy58jHBpuMQHW97">
                             <div className="text-center">
                                 <img src="./imagens/presenca.svg" width="355px" height="190px" className="me-12" alt="Presenca" />
                             </div>
