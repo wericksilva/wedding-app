@@ -28,7 +28,7 @@ export default function Home() {
                     </div>
                     <div className="card-body mt-4">
                     
-                        <p>Nos conhecemos em uma tarde ensolarada e, desde então, nossas vidas se entrelaçaram em uma linda história de amor. Venha descobrir cada capítulo dessa jornada incrível que nos trouxe até aqui.</p>
+                        <p>Nos conhecemos ainda crianças, em 2004, e acompanhamos um ao outro ao longo de todos esses anos. Vimos a infância se transformar em adolescência, a adolescência em juventude, e agora, com a maturidade dos adultos, olhamos para trás com gratidão e carinho. Nossa amizade e cumplicidade cresceram e se fortaleceram com o tempo, e temos a certeza de que estamos prontos para iniciar um casamento centrado em Cristo.</p>
                     </div>
                 </div>
 
@@ -41,7 +41,7 @@ export default function Home() {
                         </a>
                     </div>
                     <div className="card-body">
-                        <p>Junte-se a nós para celebrar o amor e a união em nossa cerimônia especial. Sua presença tornará este momento ainda mais inesquecível.</p>
+                        <p>É com imensa alegria que convidamos você para celebrar conosco o nosso casamento, que acontecerá no dia 08 de fevereiro de 2025, às 11h30, na Catedral Metropolitana de Brasília, Nossa Senhora Aparecida. Este será um momento muito especial para nós, e sua presença será uma grande honra.</p>
                     </div>
                 </div>
 
@@ -56,7 +56,7 @@ export default function Home() {
 
                     </div>
                     <div className="card-body">
-                        <p>Venha comemorar conosco em nossa recepção! Será uma tarde de alegria, dança e muitas lembranças especiais.</p>
+                        <p>Após a cerimônia, teremos o prazer de recebê-los para a recepção no Salão Itamaraty da Steak Bull. A festa começará logo após o término da celebração na catedral. Queremos ressaltar a importância de estarem conosco desde a cerimônia até a recepção, para que possamos compartilhar juntos todos os momentos deste dia inesquecível.</p>
                     </div>
                 </div>
 
@@ -69,7 +69,7 @@ export default function Home() {
                         </a>
                     </div>
                     <div className="card-body">
-                        <p>Confirme sua presença e nos ajude a tornar este dia ainda mais especial. Estamos ansiosos para celebrar com você!</p>
+                        <p>Para que possamos nos preparar da melhor forma para a nossa celebração, pedimos a gentileza de confirmar sua presença até o dia 20 de dezembro de 2024. A presença de cada um de vocês é muito importante para nós, mas entendemos que imprevistos podem ocorrer e outros compromissos podem já estar agendados para essa data.</p>
                     </div>
                 </div>
 
@@ -83,7 +83,7 @@ export default function Home() {
                                 </a>
                     </div>
                     <div className="card-body">
-                        <p>Sua presença é o nosso maior presente, mas se desejar nos presentear, veja nossas sugestões com carinho. Agradecemos de coração!</p>
+                        <p>Para aqueles que desejarem nos presentear, ficaremos imensamente gratos. O que mais desejamos é a sua presença, mas, caso queira nos agraciar com um presente, preparamos uma lista especial com experiências que enriquecerão nossa vida juntos e criarão memórias afetivas inesquecíveis.</p>
                     </div>
                 </div>
 

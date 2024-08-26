@@ -38,7 +38,8 @@ export default function Home() {
            
           <div className="card-body">
 
-            <p>Era uma vez dois corações destinados a se encontrar. Em uma tarde ensolarada, nossos olhares se cruzaram e, desde então, nossas vidas se entrelaçaram de forma mágica. Cada riso, cada abraço, fortaleceu nosso amor e cumplicidade. Hoje, celebramos essa jornada incrível, prontos para escrever novos capítulos juntos. Que nosso futuro seja sempre iluminado por esse amor tão especial.</p>
+            <p>Durante essa jornada, compartilhamos valores e alinhamos pensamentos, construindo uma base firme para o futuro. Vivenciamos juntos as mais diversas emoções e experiências, e agora, com clareza e convicção, decidimos dar o próximo passo: casar. Estamos ansiosos para construir uma família linda e repleta de amor, e mal podemos esperar para compartilhar essa nova etapa com vocês.</p>
+            
           </div>
         </div>
       </div>

@@ -43,7 +43,8 @@ export default function Home() {
           </div>
           <div className="card-body">
 
-            <p>Nesta lista de presentes, escolhemos experiências que vão enriquecer nossa vida juntos, criando memórias inesquecíveis. Sua contribuição nos ajudará a viver momentos únicos e especiais. Obrigado por fazer parte dessa nossa nova jornada!
+            <p>Nesta lista, você encontrará opções variadas, desde contribuições para nossa lua de mel até experiências únicas como passeios e eventos. Sua contribuição, de qualquer valor, nos ajudará a viver momentos especiais e significativos.
+              Agradecemos profundamente por fazer parte desta nova jornada conosco!
             </p>
           </div>
         </div>
