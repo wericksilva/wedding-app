@@ -411,7 +411,7 @@ export default function Home() {
 
                   <div class="row">
                     <span id="pix-ke-chavey" style={{ marginRight: "10px" }} >Chave PIX:</span>
-                    <span id="pix-key" style={{ marginRight: "10px" }} >f1d8428e-3d73-4bc2-b8b3-4359a84d5d08
+                    <span id="pix-key" style={{ marginRight: "10px" }}  onClick={handleSvgClick}>f1d8428e-3d73-4bc2-b8b3-4359a84d5d08
 
 
                       <svg xmlns="http://www.w3.org/2000/svg" color="blue" class="link-primary bi bi-copy" onClick={handleSvgClick} style={{ marginLeft: "15px" }} width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
