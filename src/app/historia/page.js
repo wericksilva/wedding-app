@@ -138,7 +138,7 @@ export default function Home() {
           <div class="col-6 mb-2">
             <div >
               <div className="text-center">
-                <img src="./imagens/foto1.svg" width="170px" height="160px" className="border border-danger rounded-circle me-12" alt="Historia" />
+                <img src="./imagens/foto1.svg" width="170px" height="160px" className="rounded-circle me-12" alt="Historia" />
               </div>
 
 
@@ -148,7 +148,7 @@ export default function Home() {
           <div class="col-6 mb-2">
             <div >
               <div className="text-center">
-                <img src="./imagens/foto2.svg" width="170px" height="160px" className="border border-danger rounded-circle me-12" alt="Historia" />
+                <img src="./imagens/foto2.svg" width="170px" height="160px" className="rounded-circle me-12" alt="Historia" />
               </div>
 
             </div>
@@ -157,17 +157,7 @@ export default function Home() {
 
             <div >
               <div className="text-center">
-                <img src="./imagens/foto3.svg" width="170px" height="160px" className="border border-danger rounded-circle me-12" alt="Historia" />
-              </div>
-
-            </div>
-          </div>
-
-          <div class="col-6 mb-2">
-
-            <div >
-              <div className="text-center">
-                <img src="./imagens/foto4.svg" width="170px" height="160px" className="border border-danger rounded-circle me-12" alt="Historia" />
+                <img src="./imagens/foto3.svg" width="170px" height="160px" className="rounded-circle me-12" alt="Historia" />
               </div>
 
             </div>
@@ -177,7 +167,17 @@ export default function Home() {
 
             <div >
               <div className="text-center">
-                <img src="./imagens/foto5.svg" width="170px" height="160px" className="border border-danger rounded-circle me-12" alt="Historia" />
+                <img src="./imagens/foto4.svg" width="170px" height="160px" className="rounded-circle me-12" alt="Historia" />
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-6 mb-2">
+
+            <div >
+              <div className="text-center">
+                <img src="./imagens/foto5.svg" width="170px" height="160px" className="rounded-circle me-12" alt="Historia" />
               </div>
 
 
@@ -189,7 +189,7 @@ export default function Home() {
 
             <div >
               <div className="text-center">
-                <img src="./imagens/foto6.svg" width="170px" height="160px" className="border border-danger rounded-circle me-12" alt="Historia" />
+                <img src="./imagens/foto6.svg" width="170px" height="160px" className="rounded-circle me-12" alt="Historia" />
               </div>
 
             </div>
