@@ -132,71 +132,7 @@ export default function Home() {
 
         </div>
       </div>
-      <div class="container" style={{ marginTop: "10px" }} >
-        <div class="row">
-
-          <div class="col-6 mb-2">
-            <div >
-              <div className="text-center">
-                <img src="./imagens/foto1.svg" width="170px" height="160px" className="rounded-circle me-12" alt="Historia" />
-              </div>
-
-
-            </div>
-          </div>
-
-          <div class="col-6 mb-2">
-            <div >
-              <div className="text-center">
-                <img src="./imagens/foto2.svg" width="170px" height="160px" className="rounded-circle me-12" alt="Historia" />
-              </div>
-
-            </div>
-          </div>
-          <div class="col-6 mb-2">
-
-            <div >
-              <div className="text-center">
-                <img src="./imagens/foto3.svg" width="170px" height="160px" className="rounded-circle me-12" alt="Historia" />
-              </div>
-
-            </div>
-          </div>
-
-          <div class="col-6 mb-2">
-
-            <div >
-              <div className="text-center">
-                <img src="./imagens/foto4.svg" width="170px" height="160px" className="rounded-circle me-12" alt="Historia" />
-              </div>
-
-            </div>
-          </div>
-
-          <div class="col-6 mb-2">
-
-            <div >
-              <div className="text-center">
-                <img src="./imagens/foto5.svg" width="170px" height="160px" className="rounded-circle me-12" alt="Historia" />
-              </div>
-
-
-
-            </div>
-          </div>
-
-          <div class="col-6 mb-2">
-
-            <div >
-              <div className="text-center">
-                <img src="./imagens/foto6.svg" width="170px" height="160px" className="rounded-circle me-12" alt="Historia" />
-              </div>
-
-            </div>
-          </div>
-
-        </div>
-      </div>
+    
     </>
   );
 }
