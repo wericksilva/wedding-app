@@ -18,7 +18,7 @@ export default function Home() {
             <CountDown></CountDown>
 
             <div className="container text-center">
-                <div className="mt-2 border border-light-black rounded-3">
+                <div className="mt-2">
                     <div className="container">
                         <a href="/wedding-app/historia">
                         <div className="text-center">
