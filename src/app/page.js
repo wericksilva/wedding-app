@@ -18,8 +18,8 @@ export default function Home() {
             <CountDown></CountDown>
 
             <div className="container text-center">
-                <div className="mt-2">
-                    <div className="container border border-info-subtle rounded">
+                <div className="mt-2 border border-light-black rounded-3">
+                    <div className="container">
                         <a href="/wedding-app/historia">
                         <div className="text-center">
                             <img src="./imagens/historia.svg" width="352px" height="205px" className="me-12" alt="Historia" />
@@ -32,8 +32,8 @@ export default function Home() {
                     </div>
                 </div>
 
-                <div className="mt-4 border border-info-subtle rounded">
-                    <div className="container ">
+                <div className="mt-4">
+                    <div className="container">
                         <a className="nav-link" target="_blank" href="https://maps.app.goo.gl/q9tLoYmP62dTkNzM9">
                             <div className="text-center">
                                 <img src="./imagens/cerimonia.svg" width="352px" height="205px" className="me-12" alt="Cerimonia" />
@@ -46,7 +46,7 @@ export default function Home() {
                 </div>
 
                 <div className="mt-4">
-                    <div className="container border border-info-subtle rounded">
+                    <div className="container">
                           
                         <a className="nav-link" target="_blank" href="https://maps.app.goo.gl/ww61LAaK9ZgrtEeW8">
                             <div className="text-center">
