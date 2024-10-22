@@ -50,7 +50,7 @@ export default function Home() {
             <Carousel.Item>
               <img
                 className="d-block w-100"
-                src="./imagens/foto1.svg"
+                src="./imagens/foto1.jpg"
                 alt="First slide"
               />
               <Carousel.Caption>
@@ -62,7 +62,7 @@ export default function Home() {
             <Carousel.Item>
               <img
                 className="d-block w-100"
-                src="./imagens/foto2.svg"
+                src="./imagens/foto2.jpg"
                 alt="Second slide"
               />
               <Carousel.Caption>
@@ -75,7 +75,7 @@ export default function Home() {
             <Carousel.Item>
               <img
                 className="d-block w-100"
-                src="./imagens/foto3.svg"
+                src="./imagens/foto3.jpg"
                 alt="Third slide"
               />
               <Carousel.Caption>
@@ -88,7 +88,7 @@ export default function Home() {
             <Carousel.Item>
               <img
                 className="d-block w-100"
-                src="./imagens/foto4.svg"
+                src="./imagens/foto4.jpg"
                 alt="Third slide"
               />
               <Carousel.Caption>
@@ -101,7 +101,7 @@ export default function Home() {
             <Carousel.Item>
               <img
                 className="d-block w-100"
-                src="./imagens/foto5.svg"
+                src="./imagens/foto5.jpg"
                 alt="Third slide"
               />
               <Carousel.Caption>
@@ -114,7 +114,7 @@ export default function Home() {
             <Carousel.Item>
               <img
                 className="d-block w-100"
-                src="./imagens/foto6.svg"
+                src="./imagens/foto6.jpg"
                 alt="Third slide"
               />
               <Carousel.Caption>
@@ -126,13 +126,68 @@ export default function Home() {
             </Carousel.Item>
 
 
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
+                src="./imagens/foto7.jpg"
+                alt="First slide"
+              />
+              <Carousel.Caption>
+                <h3>Um Amor Para a Eternidade</h3>
+
+                <p>A jornada que começamos hoje será repleta de alegrias, desafios e muito amor.</p>
+              </Carousel.Caption>
+            </Carousel.Item>
+
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
+                src="./imagens/foto8.jpg"
+                alt="Second slide"
+              />
+              <Carousel.Caption>
+                <h3>Dois Corações, Uma História</h3>
+
+                <p>Cada passo que damos juntos nos aproxima ainda mais do nosso conto de fadas.</p>
+
+              </Carousel.Caption>
+            </Carousel.Item>
+
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
+                src="./imagens/foto9.jpg"
+                alt="Third slide"
+              />
+              <Carousel.Caption>
+                <h3>Uma Nova Aventura</h3>
+                <p>Estamos prontos para escrever o próximo capítulo da nossa história, repleto de amor e felicidade.</p>
+
+              </Carousel.Caption>
+            </Carousel.Item>
+
+           
+
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
+                src="./imagens/foto11.jpg"
+                alt="Third slide"
+              />
+              <Carousel.Caption>
+                <h3>Corações Entrelaçados</h3>
+                <p>Dois corações, uma alma. Nosso amor nos guia para um futuro brilhante juntos.</p>
+
+              </Carousel.Caption>
+            </Carousel.Item>
+
 
 
           </Carousel>
 
         </div>
       </div>
-    
+
     </>
   );
 }
