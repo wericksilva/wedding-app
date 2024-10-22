@@ -81,7 +81,7 @@ export default function Home() {
                         <Carousel.Item>
                             <img
                                 className="d-block w-100"
-                                src="./imagens/foto14.jpg"
+                                src="./imagens/foto9.jpg"
                                 alt="Second slide"
                                 style={{ height: "400px", objectFit: "cover" }} // Ajuste a altura conforme necessário
                             />
@@ -118,31 +118,8 @@ export default function Home() {
                                 <p>Hoje, transformamos nossos sonhos em realidade, cercados de amor e carinho.</p>
                             </Carousel.Caption>
                         </Carousel.Item>
-                        <Carousel.Item>
-                            <img
-                                className="d-block w-100"
-                                src="./imagens/foto17.jpg"
-                                alt="Second slide"
-                                style={{ height: "400px", objectFit: "cover" }} // Ajuste a altura conforme necessário
-                            />
-                            <Carousel.Caption>
-                                <h3>O Grande Dia Chegou!</h3>
-
-                                <p>Hoje, celebramos a beleza do amor e a alegria de estarmos juntos.</p>
-                            </Carousel.Caption>
-                        </Carousel.Item>
-                        <Carousel.Item>
-                            <img
-                                className="d-block w-100"
-                                src="./imagens/foto18.jpg"
-                                alt="Second slide"
-                                style={{ height: "400px", objectFit: "cover" }} // Ajuste a altura conforme necessário
-                            />
-                            <Carousel.Caption>
-                                <h3>Nosso Capítulo Mais Bonito</h3>
-                                <p>Hoje começamos a escrever o capítulo mais lindo da nossa história juntos.</p>
-                            </Carousel.Caption>
-                        </Carousel.Item>
+                        
+                        
                         <Carousel.Item>
                             <img
                                 className="d-block w-100"
@@ -157,6 +134,33 @@ export default function Home() {
                         </Carousel.Item>
 
 
+                        <Carousel.Item>
+                            <img
+                                className="d-block w-100"
+                                src="./imagens/foto20.jpg"
+                                alt="Second slide"
+                                style={{ height: "400px", objectFit: "cover" }} // Ajuste a altura conforme necessário
+                            />
+                            <Carousel.Caption>
+                                <h3>Para Sempre Começa Aqui</h3>
+
+                                <p>Hoje, damos o primeiro passo em uma nova aventura, cheia de amor e descobertas.</p>
+                            </Carousel.Caption>
+                        </Carousel.Item>
+
+
+                        <Carousel.Item>
+                            <img
+                                className="d-block w-100"
+                                src="./imagens/foto21.jpg"
+                                alt="Second slide"
+                                style={{ height: "400px", objectFit: "cover" }} // Ajuste a altura conforme necessário
+                            />
+                            <Carousel.Caption>
+                            <h3>Corações Entrelaçados</h3>
+                            <p>Dois corações, uma alma. Nosso amor nos guia para um futuro brilhante juntos.</p>
+                            </Carousel.Caption>
+                        </Carousel.Item>
 
                     </Carousel>
                 </div>
