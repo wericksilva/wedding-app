@@ -45,7 +45,7 @@ const GuestMessages = () => {
         <Card.Body>
           <Form onSubmit={handleSubmit}>
             <Form.Group className="mb-3">
-              <Form.Label>Escreva uma frase de carinho ou agradecimento:</Form.Label>
+              <Form.Label>Escreva uma mensagem de carinho:</Form.Label>
               <Form.Control 
                 as="textarea" 
                 rows={3} 
