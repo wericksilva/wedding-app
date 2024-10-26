@@ -1,8 +1,11 @@
+
 import React, { useState } from 'react';
 import { Card, Button } from 'react-bootstrap';
 
 const Quiz = () => {
+
     const questions = [
+        
         {
             question: "Qual é o lugar perfeito para a nossa lua de mel?",
             options: [

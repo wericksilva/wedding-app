@@ -187,7 +187,8 @@ export default function Home() {
 
           </Carousel>
 
-          <Quiz />
+          {/** 
+          <Quiz />*/}
 
         </div>
       </div>
