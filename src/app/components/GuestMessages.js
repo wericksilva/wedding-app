@@ -1,11 +1,12 @@
 import React, { useState, useEffect } from 'react';
-import { Card, Button, Form } from 'react-bootstrap';
-import { db } from '../firebase/firebaseConfig'; // Certifique-se de que o caminho está correto
+import { Card, Button, Form, Alert } from 'react-bootstrap';
+import { db } from '../firebase/firebaseConfig';
 import { ref, push, onValue } from 'firebase/database';
 
 const GuestMessages = () => {
   const [message, setMessage] = useState('');
   const [messages, setMessages] = useState([]);
+  const [showConfirmation, setShowConfirmation] = useState(false);
 
   useEffect(() => {
     // Função para buscar mensagens do Realtime Database
@@ -32,6 +33,8 @@ const GuestMessages = () => {
         timestamp: new Date().toISOString()
       });
       setMessage('');
+      setShowConfirmation(true); // Exibe a mensagem de confirmação
+      setTimeout(() => setShowConfirmation(false), 3000); // Esconde após 3 segundos
     } catch (error) {
       console.error("Erro ao salvar mensagem: ", error);
     }
@@ -55,6 +58,13 @@ const GuestMessages = () => {
             </Form.Group>
             <Button type="submit" variant="primary">Enviar</Button>
           </Form>
+
+          {/* Mensagem de confirmação */}
+          {showConfirmation && (
+            <Alert variant="success" className="mt-3">
+              Obrigado pela sua mensagem!
+            </Alert>
+          )}
 
           <h4 className="mt-4">Mensagens dos Convidados:</h4>
           <div className="mt-3">
