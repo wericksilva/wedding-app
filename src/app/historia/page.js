@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import CountDown from "../components/countdown";
+import Quiz from "../components/Quiz";
 import { Carousel } from "react-bootstrap";
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
   const handleSvgClick = () => {
     setCounter(prevCounter => prevCounter + 1);
   };
+  
 
   return (
     <>
@@ -184,6 +186,8 @@ export default function Home() {
 
 
           </Carousel>
+
+          <Quiz />
 
         </div>
       </div>
