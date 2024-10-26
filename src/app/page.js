@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import CountDown from "./components/countdown";
 import { Router } from "next/router";
 import { Carousel } from "react-bootstrap";
-
+import GuestMessages from "./components/GuestMessages";
 
 export default function Home() {
     return (
@@ -251,6 +251,8 @@ export default function Home() {
                     </div>
                 </div>
 
+
+                <GuestMessages />
 
             </div>
         </>
