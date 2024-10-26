@@ -52,13 +52,13 @@ export default function Home() {
         </div>
       </div>
 
-      <div class="container" style={{ marginTop: "10px" }} >
-        <div class="row">
+      <div className="container" style={{ marginTop: "10px" }} >
+        <div className="row">
 
           
 
-          <div class="d-grid gap-2 col-6 mx-auto">
-  <button class="btn btn-primary" onClick={handleOpenPdf} type="button">Abrir Manual</button>
+          <div className="d-grid gap-2 col-6 mx-auto">
+  <button className="btn btn-primary" onClick={handleOpenPdf} type="button">Abrir Manual</button>
 
 </div>
 

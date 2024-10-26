@@ -46,8 +46,8 @@ export default function Home() {
         </div>
       </div>
 
-      <div class="container" style={{ marginTop: "10px" }} >
-        <div class="row">
+      <div className="container" style={{ marginTop: "10px" }} >
+        <div className="row">
           <Carousel interval={3000} controls={false} pause={false}>
             <Carousel.Item>
               <img
