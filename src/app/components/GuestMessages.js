@@ -54,10 +54,10 @@ const GuestMessages = () => {
                 placeholder="Sua mensagem aqui..."
               />
             </Form.Group>
-            <Button type="submit" variant="primary">Enviar</Button>
+            <Button type="submit" variant="primary">Enviar mensagem</Button>
           </Form>
 
-          <h4 className="mt-4">Mensagens dos Convidados:</h4>
+        
           <div className="mt-3">
             {messages.length === 0 ? (
               <p>Nenhuma mensagem ainda.</p>
