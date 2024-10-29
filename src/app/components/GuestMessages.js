@@ -7,6 +7,8 @@ const GuestMessages = () => {
   const [message, setMessage] = useState('');
   const [messages, setMessages] = useState([]);
 
+  const [nome, setNome] = useState('');
+
   useEffect(() => {
     // Função para buscar mensagens do Realtime Database
     const fetchMessages = () => {
@@ -27,11 +29,13 @@ const GuestMessages = () => {
 
     try {
       const messagesRef = ref(db, 'messages');
+      const formattedMessage = nome ? nome + ': ' + message : message;
       await push(messagesRef, {
-        text: message,
+        text: formattedMessage,
         timestamp: new Date().toISOString()
       });
       setMessage('');
+      setNome('');
       alert("Obrigado pela sua mensagem!"); // Exibe o alerta de agradecimento
     } catch (error) {
       console.error("Erro ao salvar mensagem: ", error);
@@ -46,18 +50,29 @@ const GuestMessages = () => {
           <Form onSubmit={handleSubmit}>
             <Form.Group className="mb-3">
               <Form.Label>Escreva uma mensagem de carinho:</Form.Label>
-              <Form.Control 
-                as="textarea" 
-                rows={3} 
-                value={message} 
-                onChange={(e) => setMessage(e.target.value)} 
-                placeholder="Sua mensagem aqui..."
+
+              <Form.Control
+                type="text"
+                value={nome}
+                onChange={(e) => setNome(e.target.value)}
+                placeholder="Seu nome..."
               />
+
+              <div className="mt-3"> {/* Adds margin-top to create space */}
+                <Form.Control
+                  as="textarea"
+                  rows={3}
+                  value={message}
+                  onChange={(e) => setMessage(e.target.value)}
+                  placeholder="Sua mensagem aqui..."
+                />
+              </div>
             </Form.Group>
+
             <Button type="submit" variant="primary">Enviar mensagem</Button>
           </Form>
 
-        
+
           <div className="mt-3">
             {messages.length === 0 ? (
               <p>Nenhuma mensagem ainda.</p>
