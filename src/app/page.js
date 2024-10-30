@@ -6,6 +6,7 @@ import { Router } from "next/router";
 import { Carousel } from "react-bootstrap";
 import GuestMessages from "./components/GuestMessages";
 
+
 export default function Home() {
     return (
         <>
@@ -118,8 +119,8 @@ export default function Home() {
                                 <p>Hoje, transformamos nossos sonhos em realidade, cercados de amor e carinho.</p>
                             </Carousel.Caption>
                         </Carousel.Item>
-                        
-                        
+
+
                         <Carousel.Item>
                             <img
                                 className="d-block w-100"
@@ -157,8 +158,8 @@ export default function Home() {
                                 style={{ height: "400px", objectFit: "cover" }} // Ajuste a altura conforme necessário
                             />
                             <Carousel.Caption>
-                            <h3>Corações Entrelaçados</h3>
-                            <p>Dois corações, uma alma. Nosso amor nos guia para um futuro brilhante juntos.</p>
+                                <h3>Corações Entrelaçados</h3>
+                                <p>Dois corações, uma alma. Nosso amor nos guia para um futuro brilhante juntos.</p>
                             </Carousel.Caption>
                         </Carousel.Item>
 
@@ -251,8 +252,24 @@ export default function Home() {
                     </div>
                 </div>
 
+                <div className="mt-4">
+                    <div className="container">
+                        <a href="/wedding-app/capsula">
+
+                            <div className="text-center">
+                                <img src="./imagens/capsula.svg" width="355px" height="190px" className="me-12" alt="Presentes" />
+                            </div>
+                        </a>
+                    </div>
+                    <div className="card-body">
+                        <p>Cápsula do Tempo do Casamento! Compartilhe suas Memórias e Ajude-nos a Guardar este Momento Especial.</p>
+                    </div>
+                </div>
+
 
                 <GuestMessages />
+
+                
 
             </div>
         </>
