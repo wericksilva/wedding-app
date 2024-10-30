@@ -100,12 +100,16 @@ export default function ImageUpload() {
                 uploadMedia = media;
             }
 
+            console.log("Iniciando o upload:", mediaRef); // Log para verificar o caminho de upload
+            console.log("Tipo de mídia:", media.type); // Log para verificar o tipo de arquivo
+
             await uploadBytes(mediaRef, uploadMedia); // Faz upload do Blob
             const downloadURL = await getDownloadURL(mediaRef);
+            console.log("URL da mídia carregada:", downloadURL); // Log para verificar a URL carregada
             setUrls((prevUrls) => [...prevUrls, downloadURL]); // Adiciona nova mídia à lista
             alert("Upload bem-sucedido!");
         } catch (error) {
-            console.error("Erro ao fazer upload da mídia:", error);
+            console.error("Erro ao fazer imagem da mídia:", error);
             alert("Falha no upload. Tente novamente.");
         } finally {
             setLoading(false);
@@ -132,7 +136,8 @@ export default function ImageUpload() {
 
             <div className="container mt-5">
                 <div className="p-4 shadow-sm">
-                    
+                   
+
                     <label htmlFor="file-upload" className="btn btn-outline-secondary w-100 mb-3">
                         Carregar Imagem
                     </label>
