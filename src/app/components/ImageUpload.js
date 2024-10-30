@@ -54,7 +54,7 @@ export default function ImageUpload() {
 
     const handleUpload = async () => {
         if (!image) {
-            alert("Por favor, selecione uma imagem primeiro!");
+            alert("Por favor, Carregar uma imagem primeiro!");
             return;
         }
 
@@ -83,7 +83,7 @@ export default function ImageUpload() {
                 <div className="mt-2">
                     <div className="container">
                         <div className="text-center">
-                            <img src="./imagens/historia.svg" width="352px" height="205px" className="rounded-circle me-12" alt="Historia" />
+                            <img src="./imagens/capsula.svg" width="352px" height="205px" className="rounded-circle me-12" alt="Historia" />
                         </div>
                     </div>
 
