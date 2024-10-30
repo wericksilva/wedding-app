@@ -21,14 +21,40 @@ export default function ImageUpload() {
 
     const handleImageChange = (e) => {
         if (e.target.files[0]) {
-            setImage(e.target.files[0]);
-            setPreview(URL.createObjectURL(e.target.files[0])); // Define a pré-visualização
+            const file = e.target.files[0];
+            setImage(file);
+            setPreview(URL.createObjectURL(file)); // Define a pré-visualização
         }
+    };
+
+    // Reduz a qualidade da imagem antes do upload
+    const resizeImage = (file) => {
+        return new Promise((resolve) => {
+            const img = new Image();
+            img.src = URL.createObjectURL(file);
+            img.onload = () => {
+                const canvas = document.createElement('canvas');
+                const scaleFactor = 0.7; // Ajuste esse valor para redimensionar (0.7 reduz a 70%)
+                canvas.width = img.width * scaleFactor;
+                canvas.height = img.height * scaleFactor;
+                const ctx = canvas.getContext('2d');
+                ctx.drawImage(img, 0, 0, canvas.width, canvas.height);
+                
+                // Converte o canvas para Blob com compressão
+                canvas.toBlob(
+                    (blob) => {
+                        resolve(blob);
+                    },
+                    'image/jpeg', // Formato da imagem
+                    0.7 // Qualidade da imagem (0.7 para 70%)
+                );
+            };
+        });
     };
 
     const handleUpload = async () => {
         if (!image) {
-            alert("Por favor, carregue uma imagem primeiro!");
+            alert("Por favor, selecione uma imagem primeiro!");
             return;
         }
 
@@ -36,7 +62,8 @@ export default function ImageUpload() {
         const imageRef = ref(storage, `images/${image.name}`);
 
         try {
-            await uploadBytes(imageRef, image);
+            const resizedImage = await resizeImage(image); // Redimensiona a imagem
+            await uploadBytes(imageRef, resizedImage); // Faz upload do Blob redimensionado
             const downloadURL = await getDownloadURL(imageRef);
             setUrls((prevUrls) => [...prevUrls, downloadURL]); // Adiciona nova imagem à lista
             alert("Upload bem-sucedido!");
