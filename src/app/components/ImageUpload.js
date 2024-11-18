@@ -139,7 +139,7 @@ export default function ImageUpload() {
                    
 
                     <label htmlFor="file-upload" className="btn btn-outline-secondary w-100 mb-3">
-                        Carregar Imagem
+                        Selecionar Imagem
                     </label>
                     <input
                         id="file-upload"

@@ -5,7 +5,7 @@ import { Card, Button } from 'react-bootstrap';
 const Quiz = () => {
 
     const questions = [
-        
+
         {
             question: "Qual é o lugar perfeito para a nossa lua de mel?",
             options: [
@@ -39,13 +39,13 @@ const Quiz = () => {
         {
             question: "Qual é a nossa tradição favorita?",
             options: [
-              "Noite de jogos toda sexta-feira",
-              "Cozinhar juntos aos domingos",
-              "Assistir a filmes de Natal em dezembro",
-              "Fazer um jantar temático todo mês"
+                "Noite de jogos toda sexta-feira",
+                "Cozinhar juntos aos domingos",
+                "Assistir a filmes de Natal em dezembro",
+                "Fazer um jantar temático todo mês"
             ],
             answer: "Fazer um jantar temático todo mês",
-          },
+        },
         {
             question: "Qual é o nosso filme romântico favorito?",
             options: [
