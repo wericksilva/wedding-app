@@ -31,10 +31,17 @@ export default function CountDown() {
 
     return (
         <>
-            
+             <div className="container">
+                <div className="text-center mt-4 font-italic">
+
+                    <p>08/02/2025</p>
+
+                </div>
+            </div>
+
 
             <div className="container">
-                <div className="text-center mt-4 d-flex align-items-center justify-content-center">
+                <div className="text-center mt-8 d-flex align-items-center justify-content-center">
 
                     <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" fill="currentColor" className="bi bi-alarm" viewBox="0 0 16 16">
                         <path d="M8.5 5.5a.5.5 0 0 0-1 0v3.362l-1.429 2.38a.5.5 0 1 0 .858.515l1.5-2.5A.5.5 0 0 0 8.5 9z" />
