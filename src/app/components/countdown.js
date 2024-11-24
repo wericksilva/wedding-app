@@ -34,7 +34,7 @@ export default function CountDown() {
              <div className="container">
                 <div className="text-center mt-4 font-italic">
 
-                    <p>dia 08 de fevereiro de 2025, ás 11h:30</p>
+                    <p>Dia 08 de Fevereiro de 2025, ás 11h:30</p>
 
                 </div>
             </div>
