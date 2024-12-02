@@ -4,6 +4,7 @@ import { useState } from "react";
 import CountDown from "../components/countdown";
 import Quiz from "../components/Quiz";
 import { Carousel } from "react-bootstrap";
+import TreasureHunt from "../components/TreasureHunt";
 
 export default function Home() {
 
@@ -187,8 +188,13 @@ export default function Home() {
 
           </Carousel>
 
-          {/** 
-          <Quiz />*/}
+         
+          <Quiz />
+
+{/**
+        <div>
+            <TreasureHunt />
+        </div>*/}
 
           
 

@@ -423,7 +423,8 @@ export default function Home() {
                   </div>
 
                 </div>
-                <span id="pix-ke-chavey" style={{ marginRight: "30px" }} >Cartão de Credito:</span>
+                
+                <span id="pix-ke-chavey" style={{ marginRight: "30px" }}>Cartão de Credito Via PicPay:</span>
                 <a className="nav-link link-primary" target="_blank" href="https://picpay.me/werick.silva9">
                   <p className="card-text">PicPay: https://picpay.me/werick.silva9
 
