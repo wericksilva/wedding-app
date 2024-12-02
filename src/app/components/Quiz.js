@@ -13,10 +13,10 @@ const Quiz = () => {
             options: [
                 "Na escola/universidade",
                 "Em um evento social",
-                "No mesmo bairro ainda criança",
+                "Na mesma cidade ainda criança",
                 "Em uma viagem"
             ],
-            answer: "No mesmo bairro ainda criança",
+            answer: "Na mesma cidade ainda criança",
         },
         {
             question: "Qual é o prato preferido do casal?",
