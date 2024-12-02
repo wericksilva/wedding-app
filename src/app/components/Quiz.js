@@ -39,16 +39,6 @@ const Quiz = () => {
             answer: "Inverno",
         },
         {
-            question: "Qual é a estação do ano preferida do noivo?",
-            options: [
-                "Verão",
-                "Outono",
-                "Inverno",
-                "Primavera"
-            ],
-            answer: "Verão",
-        },
-        {
             question: "Qual é o ritmo musical favorito do casal?",
             options: [
                 "MPB",
@@ -57,6 +47,16 @@ const Quiz = () => {
                 "Reggae"
             ],
             answer: "Reggae",
+        },
+        {
+            question: "Qual é a estação do ano preferida do noivo?",
+            options: [
+                "Verão",
+                "Outono",
+                "Inverno",
+                "Primavera"
+            ],
+            answer: "Verão",
         }
     ];
 
