@@ -176,22 +176,31 @@ export default function ImageUpload() {
 
             {/* Exibir todas as mídias em uma grade de duas colunas */}
             <div className="container mt-4">
-                <h4 className="text-center mb-3">Galeria de Memórias</h4>
-                <div className="row">
-                    {urls.map((url, index) => (
-                        <div key={index} className="col-6 mb-3">
-                            {url.endsWith('.mp4') ? ( // Verifica se a URL é de um vídeo
-                                <video controls className="img-fluid rounded" style={{ maxWidth: "100%" }}>
-                                    <source src={url} type="video/mp4" />
-                                    Seu navegador não suporta a tag de vídeo.
-                                </video>
-                            ) : (
-                                <img src={url} alt={`Uploaded ${index}`} className="img-fluid rounded" />
-                            )}
-                        </div>
-                    ))}
-                </div>
-            </div>
+  <h4 className="text-center mb-3">Galeria de Memórias</h4>
+  <div className="row">
+    {urls.map((url, index) => (
+      <div key={index} className="col-6 mb-3">
+        {url.endsWith('.mp4') ? ( // Verifica se a URL é de um vídeo
+          <video
+            controls
+            className="img-fluid rounded framed-media"
+            style={{ maxWidth: "100%" }}
+          >
+            <source src={url} type="video/mp4" />
+            Seu navegador não suporta a tag de vídeo.
+          </video>
+        ) : (
+          <img
+            src={url}
+            alt={`Uploaded ${index}`}
+            className="img-fluid rounded framed-media"
+          />
+        )}
+      </div>
+    ))}
+  </div>
+</div>
+
         </>
     );
 }

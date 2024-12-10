@@ -25,7 +25,10 @@ const GuestMessages = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    if (message.trim() === '') return;
+    if (nome.trim() === '' || message.trim() === '') {
+      alert('Por favor, preencha os campos Nome e Mensagem antes de enviar.');
+      return;
+    }
 
     try {
       const messagesRef = ref(db, 'messages');
@@ -45,7 +48,7 @@ const GuestMessages = () => {
   return (
     <div className="container text-center mt-5">
       <Card>
-        <Card.Header as="h2">Deixe sua Mensagem</Card.Header>
+        <Card.Header as="h3">Deixe sua Mensagem</Card.Header>
         <Card.Body>
           <Form onSubmit={handleSubmit}>
             <Form.Group className="mb-3">
@@ -77,13 +80,27 @@ const GuestMessages = () => {
             {messages.length === 0 ? (
               <p>Nenhuma mensagem ainda.</p>
             ) : (
-              messages.map((msg, index) => (
-                <Card key={index} className="mb-2">
-                  <Card.Body>{msg}</Card.Body>
-                </Card>
-              ))
+              messages.map((msg, index) => {
+                const [namePart, ...messageParts] = msg.split(': ');
+                const messageText = messageParts.join(': ');
+
+                return (
+                  <Card key={index} className="mb-2">
+                    <Card.Body>
+                      {namePart && messageParts.length > 0 ? (
+                        <>
+                          <strong>{namePart}</strong>: {messageText}
+                        </>
+                      ) : (
+                        msg
+                      )}
+                    </Card.Body>
+                  </Card>
+                );
+              })
             )}
           </div>
+
         </Card.Body>
       </Card>
     </div>
