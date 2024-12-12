@@ -412,8 +412,7 @@ export default function Home() {
 
                   <div className="row">
                     <span id="pix-ke-chavey" style={{ marginRight: "10px" }} >Chave PIX:</span>
-                    <span id="pix-key" style={{ marginRight: "10px" }}>f1d8428e-3d73-4bc2-b8b3-4359a84d5d08
-
+                    <span id="pix-key" style={{ marginRight: "10px" }}>wericksrc@gmail.com
 
                       <svg xmlns="http://www.w3.org/2000/svg" color="blue" className="link-primary bi bi-copy" onClick={handleSvgClick} style={{ marginLeft: "15px" }} width="18" height="18" fill="currentColor" viewBox="0 0 16 16">
                         <path fillRule="evenodd" d="M4 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 5a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1v-1h1v1a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h1v1z" />
