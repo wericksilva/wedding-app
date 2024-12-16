@@ -186,7 +186,7 @@ export default function Home() {
         </div>
     </div>
     <div className="card-body mt-4">
-        <p className="text-justify fs-5">
+        <p className="text-justify fs-6">
             Nos conhecemos ainda crianças, em 2004, e acompanhamos um ao outro ao longo de todos esses anos. 
             Vimos a infância se transformar em adolescência, a adolescência em juventude, e agora, com a maturidade dos adultos, 
             olhamos para trás com gratidão e carinho. Nossa amizade e cumplicidade cresceram e se fortaleceram com o tempo, 
@@ -210,7 +210,7 @@ export default function Home() {
         </div>
     </div>
     <div className="card-body mt-4">
-        <p className="text-justify fs-5">
+        <p className="text-justify fs-6">
             É com imensa alegria que convidamos você para celebrar conosco o nosso casamento, que acontecerá no dia 08 de fevereiro de 2025, às 11h30, na Catedral Metropolitana de Brasília, Nossa Senhora Aparecida. Este será um momento muito especial para nós, e sua presença será uma grande honra.
         </p>
     </div>
@@ -231,7 +231,7 @@ export default function Home() {
         </div>
     </div>
     <div className="card-body mt-4">
-        <p className="text-justify fs-5">
+        <p className="text-justify fs-6">
             Após a cerimônia, teremos o prazer de recebê-los para a recepção no Salão Itamaraty da Steak Bull. A festa começará logo após o término da celebração na catedral. Queremos ressaltar a importância de estarem conosco desde a cerimônia até a recepção, para que possamos compartilhar juntos todos os momentos deste dia inesquecível.
         </p>
     </div>
@@ -252,7 +252,7 @@ export default function Home() {
         </div>
     </div>
     <div className="card-body mt-4">
-        <p className="text-justify fs-5">
+        <p className="text-justify fs-6">
             Para que possamos nos preparar da melhor forma para a nossa celebração, pedimos a gentileza de confirmar sua presença até o dia 20 de dezembro de 2024. A presença de cada um de vocês é muito importante para nós, mas entendemos que imprevistos podem ocorrer e outros compromissos podem já estar agendados para essa data.
         </p>
     </div>
@@ -273,7 +273,7 @@ export default function Home() {
         </div>
     </div>
     <div className="card-body mt-4">
-        <p className="text-justify fs-5">
+        <p className="text-justify fs-6">
             Para aqueles que desejarem nos presentear, ficaremos imensamente gratos. O que mais desejamos é a sua presença, mas, caso queira nos agraciar com um presente, preparamos uma lista especial com experiências que enriquecerão nossa vida juntos e criarão memórias afetivas inesquecíveis.
         </p>
     </div>
@@ -294,7 +294,7 @@ export default function Home() {
         </div>
     </div>
     <div className="card-body mt-4">
-        <p className="text-justify fs-5">
+        <p className="text-justify fs-6">
             Queridos padrinhos e madrinhas, é com imensa alegria que contamos com a presença e o apoio de vocês neste momento tão especial de nossas vidas. Sabemos que o papel de vocês vai muito além de estar ao nosso lado no altar. Vocês são parte essencial desta jornada, amigos queridos que escolhemos para compartilhar e celebrar nosso amor.
         </p>
     </div>
@@ -315,7 +315,7 @@ export default function Home() {
         </div>
     </div>
     <div className="card-body mt-4">
-        <p className="text-justify fs-5">
+        <p className="text-justify fs-6">
             Cápsula do Tempo do Casamento! Compartilhe suas memórias e ajude-nos a guardar este momento especial.
         </p>
     </div>
