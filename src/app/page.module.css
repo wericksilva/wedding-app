@@ -228,3 +228,12 @@
     transform: rotate(0deg);
   }
 }
+.hover-scale:hover {
+  transform: scale(1.05); /* Zoom leve */
+  transition: transform 0.3s ease-in-out; /* Suaviza a transição */
+}
+
+.link-clicavel:focus-visible {
+  outline: 2px solid #0d6efd; /* Destaque ao focar no link */
+  border-radius: 8px; /* Combina com os cantos arredondados */
+}
