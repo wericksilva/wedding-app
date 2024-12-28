@@ -35,11 +35,11 @@ export default function Home() {
       <div className="container text-center">
         <div className="mt-2">
           <div className="container">
-            
-              <div className="text-center">
-                <img src="./imagens/presentes.svg" width="355px" height="190px" className="me-12" alt="Presentes" />
-              </div>
-            
+
+            <div className="text-center">
+              <img src="./imagens/presentes.svg" width="355px" height="190px" className="me-12" alt="Presentes" />
+            </div>
+
           </div>
           <div className="card-body">
 
@@ -282,7 +282,7 @@ export default function Home() {
             </div>
           </div>
 
-          
+
 
           <div className="col-6 mb-2">
             <div className="card">
@@ -310,7 +310,7 @@ export default function Home() {
             </div>
           </div>
 
-          
+
 
           <div className="col-6 mb-2">
             <div className="card">
@@ -325,7 +325,7 @@ export default function Home() {
             </div>
           </div>
 
-          
+
 
           <div className="col-6 mb-2">
             <div className="card">
@@ -340,13 +340,13 @@ export default function Home() {
             </div>
           </div>
 
-          
 
-          
 
-          
 
-          
+
+
+
+
 
           <div className="col-6 mb-2">
             <div className="card">
@@ -361,8 +361,8 @@ export default function Home() {
             </div>
           </div>
 
-         
-          
+
+
           <div className="col-6 mb-2">
             <div className="card">
               <div className="text-center">
@@ -388,7 +388,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          
+
           <div className="col-6 mb-2">
             <div className="card">
               <div className="text-center">
@@ -401,7 +401,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          
+
 
           <div className="container text-center">
             <div className="card mt-2">
@@ -422,7 +422,7 @@ export default function Home() {
                   </div>
 
                 </div>
-                
+
                 <span id="pix-ke-chavey" style={{ marginRight: "30px" }}>Cartão de Credito Via PicPay:</span>
                 <a className="nav-link link-primary" target="_blank" href="https://picpay.me/werick.silva9">
                   <p className="card-text">PicPay: https://picpay.me/werick.silva9
@@ -431,6 +431,16 @@ export default function Home() {
 
                 </a>
 
+                
+
+                
+      <div className="container">
+        
+          <div className="text-center"  onClick={handleSvgClick}>
+            <img src="./imagens/qrcode.jpeg" width="230" className="me-12" alt="Banner" />
+          </div>
+        
+      </div>
 
 
 
