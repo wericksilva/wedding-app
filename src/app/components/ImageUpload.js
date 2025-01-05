@@ -164,6 +164,7 @@ export default function ImageUpload() {
                             {media.type.startsWith("video/") ? (
                                 <video
                                     controls
+                                    loop
                                     className="img-fluid rounded"
                                     style={{ maxWidth: "100%", maxHeight: "400px" }}
                                 >
@@ -175,7 +176,7 @@ export default function ImageUpload() {
                                     src={preview}
                                     alt="Pré-visualização"
                                     className="img-fluid rounded"
-                                    style={{ maxWidth: "100%", maxHeight: "400px" }}
+                                    style={{ maxWidth: "100%", maxHeight: "400px", objectFit: "contain" }}
                                 />
                             )}
                         </div>
@@ -207,8 +208,9 @@ export default function ImageUpload() {
                             {media.url.endsWith(".mp4") ? (
                                 <video
                                     controls
+                                    loop
                                     className="img-fluid rounded"
-                                    style={{ maxWidth: "100%", maxHeight: "300px" }}
+                                    style={{ width: "100%", height: "300px", objectFit: "cover" }}
                                 >
                                     <source src={media.url} type="video/mp4" />
                                     Seu navegador não suporta a tag de vídeo.
@@ -218,7 +220,7 @@ export default function ImageUpload() {
                                     src={media.url}
                                     alt={`Uploaded ${index}`}
                                     className="img-fluid rounded"
-                                    style={{ objectFit: "cover", width: "100%", height: "200px" }}
+                                    style={{ width: "100%", height: "300px", objectFit: "contain" }}
                                 />
                             )}
                             {media.caption && <p className="text-center mt-2">{media.caption}</p>}
