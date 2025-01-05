@@ -1,20 +1,21 @@
 import { useState, useEffect } from "react";
 import { ref, uploadBytes, getDownloadURL, listAll } from "firebase/storage";
-import { ref as dbRef, set, push, get } from "firebase/database";
+import { ref as dbRef, set, push, get } from "firebase/database"; // Substituímos `onValue` por `get`
 import { storage, db } from "../firebase/firebaseConfig";
 
 export default function ImageUpload() {
     const [media, setMedia] = useState(null);
-    const [caption, setCaption] = useState("");
+    const [caption, setCaption] = useState(""); // Legenda adicionada
     const [preview, setPreview] = useState(null);
     const [urls, setUrls] = useState([]);
     const [loading, setLoading] = useState(false);
     const [error, setError] = useState("");
 
+    // Carregar imagens existentes do Realtime Database uma vez
     useEffect(() => {
         const fetchMedia = async () => {
             const mediaListRef = dbRef(db, "mediaCaptions");
-            const snapshot = await get(mediaListRef);
+            const snapshot = await get(mediaListRef); // Busca os dados uma única vez
             if (snapshot.exists()) {
                 const data = snapshot.val();
                 const mediaArray = Object.values(data);
@@ -33,6 +34,7 @@ export default function ImageUpload() {
                 setPreview(URL.createObjectURL(file));
                 setError("");
 
+                // Para vídeos, verifica a duração
                 if (fileType === "video") {
                     const videoElement = document.createElement("video");
                     videoElement.src = URL.createObjectURL(file);
@@ -58,24 +60,16 @@ export default function ImageUpload() {
             img.src = URL.createObjectURL(file);
             img.onload = () => {
                 const canvas = document.createElement("canvas");
-                const MAX_WIDTH = 800;
-                const MAX_HEIGHT = 800;
-                let width = img.width;
-                let height = img.height;
-
-                if (width > height && width > MAX_WIDTH) {
-                    height *= MAX_WIDTH / width;
-                    width = MAX_WIDTH;
-                } else if (height > width && height > MAX_HEIGHT) {
-                    width *= MAX_HEIGHT / height;
-                    height = MAX_HEIGHT;
-                }
-
-                canvas.width = width;
-                canvas.height = height;
+                const scaleFactor = 0.7;
+                canvas.width = img.width * scaleFactor;
+                canvas.height = img.height * scaleFactor;
                 const ctx = canvas.getContext("2d");
-                ctx.drawImage(img, 0, 0, width, height);
-                canvas.toBlob((blob) => resolve(blob), "image/jpeg", 0.7);
+                ctx.drawImage(img, 0, 0, canvas.width, canvas.height);
+                canvas.toBlob(
+                    (blob) => resolve(blob),
+                    "image/jpeg",
+                    0.7
+                );
             };
         });
     };
@@ -96,13 +90,17 @@ export default function ImageUpload() {
                 uploadMedia = media;
             }
 
+            console.log("Iniciando o upload...");
             await uploadBytes(mediaRef, uploadMedia);
             const downloadURL = await getDownloadURL(mediaRef);
+            console.log("URL obtida:", downloadURL);
 
+            // Salva no Realtime Database
             const mediaDbRef = push(dbRef(db, "mediaCaptions"));
             const newEntry = { url: downloadURL, caption };
             await set(mediaDbRef, newEntry);
 
+            // Atualiza o estado local (evita re-renderizações desnecessárias)
             setUrls((prevUrls) => [...prevUrls, newEntry]);
             alert("Upload bem-sucedido!");
         } catch (error) {
@@ -112,7 +110,7 @@ export default function ImageUpload() {
             setLoading(false);
             setMedia(null);
             setPreview(null);
-            setCaption("");
+            setCaption(""); // Limpa a legenda
         }
     };
 
@@ -161,12 +159,13 @@ export default function ImageUpload() {
 
                     {preview && (
                         <div className="text-center mb-3">
-                            {media.type.startsWith("video/") ? (
+                            {media.type.startsWith("video/") || media.type.endsWith("gif") ? (
                                 <video
-                                    controls
+                                    autoPlay
                                     loop
+                                    muted
                                     className="img-fluid rounded"
-                                    style={{ maxWidth: "100%", maxHeight: "400px" }}
+                                    style={{ maxWidth: "100%", maxHeight: "300px" }}
                                 >
                                     <source src={preview} type={media.type} />
                                     Seu navegador não suporta a tag de vídeo.
@@ -176,7 +175,7 @@ export default function ImageUpload() {
                                     src={preview}
                                     alt="Pré-visualização"
                                     className="img-fluid rounded"
-                                    style={{ maxWidth: "100%", maxHeight: "400px", objectFit: "contain" }}
+                                    style={{ maxWidth: "100%", maxHeight: "300px" }}
                                 />
                             )}
                         </div>
@@ -205,23 +204,19 @@ export default function ImageUpload() {
                 <div className="row">
                     {urls.map((media, index) => (
                         <div key={index} className="col-6 mb-3">
-                            {media.url.endsWith(".mp4") ? (
+                            {media.url.endsWith(".mp4") || media.url.endsWith(".gif") ? (
                                 <video
-                                    controls
+                                    autoPlay
                                     loop
+                                    muted
                                     className="img-fluid rounded"
-                                    style={{ width: "100%", height: "300px", objectFit: "cover" }}
+                                    style={{ maxWidth: "100%" }}
                                 >
                                     <source src={media.url} type="video/mp4" />
                                     Seu navegador não suporta a tag de vídeo.
                                 </video>
                             ) : (
-                                <img
-                                    src={media.url}
-                                    alt={`Uploaded ${index}`}
-                                    className="img-fluid rounded"
-                                    style={{ width: "100%", height: "300px", objectFit: "contain" }}
-                                />
+                                <img src={media.url} alt={`Uploaded ${index}`} className="img-fluid rounded" />
                             )}
                             {media.caption && <p className="text-center mt-2">{media.caption}</p>}
                         </div>
