@@ -85,7 +85,7 @@ export default function Home() {
               <div className="card-body">
                 <p className="card-text">Um mês de tv/streaming</p>
 
-                <p className="card-text">R$ 50,00</p>
+                <p className="card-text">R$ 80,00</p>
               </div>
             </div>
           </div>
@@ -172,7 +172,7 @@ export default function Home() {
               <div className="card-body" >
                 <p className="card-text">Piquenique no Parque.</p>
                 <p className="card-text"></p>
-                <p className="card-text">R$ 50,00</p>
+                <p className="card-text">R$ 80,00</p>
               </div>
             </div>
           </div>
@@ -397,7 +397,7 @@ export default function Home() {
               <div className="card-body" >
                 <p className="card-text">Lenço para não borrar maquiagem da noiva.</p>
                 <p className="card-text"></p>
-                <p className="card-text">R$ 50,00</p>
+                <p className="card-text">R$ 70,00</p>
               </div>
             </div>
           </div>
@@ -406,7 +406,7 @@ export default function Home() {
           <div className="container text-center">
             <div className="card mt-2">
               <div className="card-body">
-                <p className="card-text">Para nos presentear de forma simples e rápida, utilize chave PIX ou Cartão de Credito</p>
+                <p className="card-text">Para nos presentear de forma simples e rápida, utilize chave PIX ou Cartão de Credito Via PicPay</p>
 
                 <div className="row">
 

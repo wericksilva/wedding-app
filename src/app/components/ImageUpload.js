@@ -164,6 +164,8 @@ export default function ImageUpload() {
                                     autoPlay
                                     loop
                                     muted
+                                    controls={false} // Remove controles para evitar interrupções
+                                    onEnded={(e) => e.target.play()} // Garante reinício manual para vídeos problemáticos
                                     className="img-fluid rounded"
                                     style={{ maxWidth: "100%", maxHeight: "300px" }}
                                 >
@@ -180,6 +182,7 @@ export default function ImageUpload() {
                             )}
                         </div>
                     )}
+
 
                     <input
                         type="text"

@@ -199,6 +199,27 @@ export default function Home() {
     <div className="container">
         <div className="row justify-content-center">
             <div className="col-12 col-md-8 col-lg-6 text-center">
+                <a href="/wedding-app/presentes" className="d-inline-block link-clicavel">
+                    <img 
+                        src="./imagens/presentes.svg" 
+                        className="img-fluid rounded-3 shadow-lg hover-scale" 
+                        alt="Presentes"
+                    />
+                </a>
+            </div>
+        </div>
+    </div>
+    <div className="card-body mt-4">
+        <p className="text-justify fs-6">
+            Para aqueles que desejarem nos presentear, ficaremos imensamente gratos. O que mais desejamos é a sua presença, mas, caso queira nos agraciar com um presente, preparamos uma lista especial com experiências que enriquecerão nossa vida juntos e criarão memórias afetivas inesquecíveis.
+        </p>
+    </div>
+</div>
+
+<div className="mt-4">
+    <div className="container">
+        <div className="row justify-content-center">
+            <div className="col-12 col-md-8 col-lg-6 text-center">
                 <a href="https://maps.app.goo.gl/q9tLoYmP62dTkNzM9" target="_blank" className="d-inline-block link-clicavel">
                     <img 
                         src="./imagens/cerimonia.svg" 
@@ -258,26 +279,7 @@ export default function Home() {
     </div>
 </div>
 
-<div className="mt-4">
-    <div className="container">
-        <div className="row justify-content-center">
-            <div className="col-12 col-md-8 col-lg-6 text-center">
-                <a href="/wedding-app/presentes" className="d-inline-block link-clicavel">
-                    <img 
-                        src="./imagens/presentes.svg" 
-                        className="img-fluid rounded-3 shadow-lg hover-scale" 
-                        alt="Presentes"
-                    />
-                </a>
-            </div>
-        </div>
-    </div>
-    <div className="card-body mt-4">
-        <p className="text-justify fs-6">
-            Para aqueles que desejarem nos presentear, ficaremos imensamente gratos. O que mais desejamos é a sua presença, mas, caso queira nos agraciar com um presente, preparamos uma lista especial com experiências que enriquecerão nossa vida juntos e criarão memórias afetivas inesquecíveis.
-        </p>
-    </div>
-</div>
+
 
 <div className="mt-4">
     <div className="container">
