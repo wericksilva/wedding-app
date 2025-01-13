@@ -220,6 +220,27 @@ export default function Home() {
     <div className="container">
         <div className="row justify-content-center">
             <div className="col-12 col-md-8 col-lg-6 text-center">
+                <a href="https://forms.gle/52Uy58jHBpuMQHW97" target="_blank" className="d-inline-block link-clicavel">
+                    <img 
+                        src="./imagens/presenca.svg" 
+                        className="img-fluid rounded-3 shadow-lg hover-scale" 
+                        alt="Confirmar Presença"
+                    />
+                </a>
+            </div>
+        </div>
+    </div>
+    <div className="card-body mt-4">
+        <p className="text-justify fs-6">
+            Para que possamos nos preparar da melhor forma para a nossa celebração, pedimos a gentileza de confirmar sua presença até o dia 20 de dezembro de 2024. A presença de cada um de vocês é muito importante para nós, mas entendemos que imprevistos podem ocorrer e outros compromissos podem já estar agendados para essa data.
+        </p>
+    </div>
+</div>
+
+<div className="mt-4">
+    <div className="container">
+        <div className="row justify-content-center">
+            <div className="col-12 col-md-8 col-lg-6 text-center">
                 <a href="https://maps.app.goo.gl/q9tLoYmP62dTkNzM9" target="_blank" className="d-inline-block link-clicavel">
                     <img 
                         src="./imagens/cerimonia.svg" 
@@ -258,26 +279,7 @@ export default function Home() {
     </div>
 </div>
 
-<div className="mt-4">
-    <div className="container">
-        <div className="row justify-content-center">
-            <div className="col-12 col-md-8 col-lg-6 text-center">
-                <a href="https://forms.gle/52Uy58jHBpuMQHW97" target="_blank" className="d-inline-block link-clicavel">
-                    <img 
-                        src="./imagens/presenca.svg" 
-                        className="img-fluid rounded-3 shadow-lg hover-scale" 
-                        alt="Confirmar Presença"
-                    />
-                </a>
-            </div>
-        </div>
-    </div>
-    <div className="card-body mt-4">
-        <p className="text-justify fs-6">
-            Para que possamos nos preparar da melhor forma para a nossa celebração, pedimos a gentileza de confirmar sua presença até o dia 20 de dezembro de 2024. A presença de cada um de vocês é muito importante para nós, mas entendemos que imprevistos podem ocorrer e outros compromissos podem já estar agendados para essa data.
-        </p>
-    </div>
-</div>
+
 
 
 
