@@ -5,7 +5,8 @@ import CountDown from "./components/countdown";
 import { Router } from "next/router";
 import { Carousel } from "react-bootstrap";
 import GuestMessages from "./components/GuestMessages";
-
+import MusicPlayer from "./components/MusicPlayer";
+//import MemoryGame from "./components/MemoryGame";
 
 export default function Home() {
     return (
@@ -16,7 +17,7 @@ export default function Home() {
                     <img src="./imagens/baner.svg" width="370px" className="me-12" alt="Banner" />
                 </div>
             </div>
-
+            <MusicPlayer />
             <CountDown></CountDown>
 
 
@@ -327,7 +328,7 @@ export default function Home() {
 
 
                 <GuestMessages />
-
+                
                 
 
             </div>
