@@ -1,38 +1,35 @@
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useState } from "react";
+import ReactPlayer from "react-player";
 
 const MusicPlayer = () => {
-  const audioRef = useRef(null);
   const [isPlaying, setIsPlaying] = useState(false);
+  const [isClient, setIsClient] = useState(false);
 
   useEffect(() => {
-    const audio = audioRef.current;
-    if (audio) {
-      audio.muted = true; // Inicia mudo
-      audio.play()
-        .then(() => {
-          audio.muted = false; // Desmuta após iniciar
-          setIsPlaying(true);
-        })
-        .catch((err) => {
-          console.warn("Reprodução automática bloqueada pelo navegador.", err);
-          setIsPlaying(false);
-        });
-    }
-
-    return () => {
-      if (audio) {
-        audio.pause();
-        audio.currentTime = 0;
-      }
-    };
+    // Garantir que a execução ocorra apenas no lado do cliente
+    setIsClient(true);
   }, []);
 
+  useEffect(() => {
+    // Chama a função de play automaticamente ao carregar no cliente
+    if (isClient) {
+      setIsPlaying(true);
+    }
+  }, [isClient]);
+
   return (
-    <div>
-      <audio ref={audioRef} loop>
-        <source src="/audio/casamento.mp3" type="audio/mpeg" />
-        Seu navegador não suporta o elemento de áudio.
-      </audio>
+    <div style={{ display: "none" }}>
+      {isClient && (
+        <ReactPlayer
+          url="/audio/casamento.mp3"
+          playing={isPlaying}
+          loop
+          controls={false} // Remove controles, fica invisível
+          muted={false} // Define para não estar mudo, para garantir que não seja bloqueado
+          width="0" // Define o tamanho como zero
+          height="0" // Define o tamanho como zero
+        />
+      )}
     </div>
   );
 };
