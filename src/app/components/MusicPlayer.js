@@ -1,35 +1,43 @@
-import { useEffect, useState } from "react";
-import ReactPlayer from "react-player";
+import { useEffect, useState, useRef } from "react";
 
 const MusicPlayer = () => {
-  const [isPlaying, setIsPlaying] = useState(false);
-  const [isClient, setIsClient] = useState(false);
+  const audioRef = useRef(null); // Referência para o elemento de áudio
+  const [isPlaying, setIsPlaying] = useState(false); // Estado para controlar se o áudio está tocando
+  const [isMuted, setIsMuted] = useState(true); // Começar mudo
+  const [isClient, setIsClient] = useState(false); // Garantir que o efeito seja executado apenas no cliente
 
+  // Garantir que o efeito seja executado no cliente, não no servidor
   useEffect(() => {
-    // Garantir que a execução ocorra apenas no lado do cliente
     setIsClient(true);
   }, []);
 
   useEffect(() => {
-    // Chama a função de play automaticamente ao carregar no cliente
     if (isClient) {
-      setIsPlaying(true);
+      // Simulando o clique no botão automaticamente
+      if (audioRef.current) {
+        audioRef.current.play().catch((err) => {
+          console.warn("Reprodução automática bloqueada pelo navegador.", err);
+        });
+        setIsMuted(false); // Desmutar automaticamente após reprodução
+      }
     }
   }, [isClient]);
 
   return (
-    <div style={{ display: "none" }}>
-      {isClient && (
-        <ReactPlayer
-          url="/audio/casamento.mp3"
-          playing={isPlaying}
-          loop
-          controls={false} // Remove controles, fica invisível
-          muted={false} // Define para não estar mudo, para garantir que não seja bloqueado
-          width="0" // Define o tamanho como zero
-          height="0" // Define o tamanho como zero
-        />
-      )}
+    <div>
+      {/* O player de áudio começa mudo e será desmutado automaticamente */}
+      <audio
+        ref={audioRef}
+        loop
+        muted={isMuted}
+        onPlay={() => setIsPlaying(true)}
+        onPause={() => setIsPlaying(false)}
+      >
+        <source src="/audio/casamento.mp3" type="audio/mpeg" />
+        Seu navegador não suporta o elemento de áudio.
+      </audio>
+
+      {/* O botão de desmutar foi removido, ele não será mais exibido */}
     </div>
   );
 };

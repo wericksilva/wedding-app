@@ -6,7 +6,7 @@ import { Router } from "next/router";
 import { Carousel } from "react-bootstrap";
 import GuestMessages from "./components/GuestMessages";
 import MusicPlayer from "./components/MusicPlayer";
-//import MemoryGame from "./components/MemoryGame";
+
 
 export default function Home() {
     return (
